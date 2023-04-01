@@ -389,7 +389,7 @@ module.exports = function (app) {
    *          type: number
    *          description: moneySpent.
    *      example:
-   *        year: 2021
+   *        year: 2022
    *        month: 8
    *        moneySpent: 73
    *
@@ -403,7 +403,7 @@ module.exports = function (app) {
    *          type: number
    *          description: moneySpent.
    *      example:
-   *        year: 2021
+   *        year: 2022
    *        moneySpent: 146
    *
    *    ExplorerStats:
@@ -431,8 +431,8 @@ module.exports = function (app) {
    *        - moneySpent
    *      example:
    *        explorerId: 621d3bd53d27b64cdec81b50
-   *        monthExpense:  [{"year":2021,"month":8,"moneySpent":73},{"year":2021,"month":12,"moneySpent":73},{"year":2022,"month":2,"moneySpent":104}]
-   *        yearExpense: [{"year":2021,"moneySpent":146},{"year":2022,"moneySpent":104}]
+   *        monthExpense:  [{"year":2022,"month":8,"moneySpent":73},{"year":2022,"month":12,"moneySpent":73},{"year":2023,"month":2,"moneySpent":104}]
+   *        yearExpense: [{"year":2022,"moneySpent":146},{"year":2023,"moneySpent":104}]
    *        moneySpent: 250
    *
    *    ExplorersStats:
@@ -463,7 +463,7 @@ module.exports = function (app) {
    *            type: number
    *          required: true
    *          description: A valid year number. Last three years.
-   *          example: 2021
+   *          example: 2022
    *        - in: path
    *          name: startMonth
    *          schema:
@@ -477,7 +477,7 @@ module.exports = function (app) {
    *            type: number
    *          required: true
    *          description: A valid year number. Last three years.
-   *          example: 2021
+   *          example: 2022
    *        - in: path
    *          name: endMonth
    *          schema:
@@ -521,7 +521,7 @@ module.exports = function (app) {
    *            type: number
    *          required: true
    *          description: A valid year number. Last three years.
-   *          example: 2021
+   *          example: 2022
    *        - in: path
    *          name: startMonth
    *          schema:
@@ -535,7 +535,7 @@ module.exports = function (app) {
    *            type: number
    *          required: true
    *          description: A valid year number. Last three years.
-   *          example: 2021
+   *          example: 2022
    *        - in: path
    *          name: endMonth
    *          schema:

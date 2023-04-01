@@ -1,44 +1,36 @@
-# ACME-Explorer
+# Acme Explorer Backend
 
-## 1 - Configure environment variables based in <code>docker/.env.example</code>.
+# Deploying the application
 
-```
-cd docker
-cp .env.example .env
-```
-
-## 2 - Build docker container
-```
-cd docker
-sh docker-compose-build.sh
-```
-
-This script will create the containers.
-
-This script also will create these files inside the container.
+Read:
 
 ```
-./massiveLoad/1-actors.json
-./massiveLoad/2-trips.json
-./massiveLoad/3-applications.json
-./massiveLoad/4-finders.json
+docker/README.md
 ```
 
-## 4 - In Thunder Client run "INITIALIZE APP" tests.
+# Running thunder client tests
 
-## 5 - Go to MongoDB Compass, database ACME-Explorer, collection actors and rename actor's role from "EXPLORER" to "ADMINISTRATOR".
+## 1 - In Thunder Client, go to environment and set the value of:
 
-## 6 - In Thunder Client run "POPULATE COLLECTIONS" tests.
+```
+frontendAppFirebaseApiKey
+```
 
-## 7 - In Thunder Client run "ACTORS TESTS" tests.
+## 2 - In Thunder Client run "INITIALIZE APP" tests.
 
-## 8 - In Thunder Client run "SPONSORS TESTS" tests.
+## 3 - Go to MongoDB Compass, database ACME-Explorer, collection actors and rename actor's role from "EXPLORER" to "ADMINISTRATOR".
 
-## 9 - In Thunder Client run "TRIPS TESTS" tests.
+## 4 - In Thunder Client run "POPULATE COLLECTIONS" tests.
 
-## 10 - In Thunder Client run "APPLICATION" tests.
+## 5 - In Thunder Client run "ACTORS TESTS" tests.
 
-## 11 - In Thunder Client run "FINDER" tests.
+## 6 - In Thunder Client run "SPONSORS TESTS" tests.
+
+## 7 - In Thunder Client run "TRIPS TESTS" tests.
+
+## 8 - In Thunder Client run "APPLICATION" tests.
+
+## 9 - In Thunder Client run "FINDER" tests.
 
 #
 # Mocha and Chai Tests

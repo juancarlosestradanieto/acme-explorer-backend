@@ -1,3 +1,4 @@
 node_modules
 massiveLoad/*.json
-acme-explorer-firebase-project-firebase-adminsdk.json
+docker/credentials/*
+docker/responses/*

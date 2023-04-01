@@ -39,12 +39,12 @@ module.exports = function (app) {
    *        keyWord: Quam eius voluptas.
    *        priceLowerBound: 12
    *        priceUpperBound: 34
-   *        dateLowerBound: 2022-01-09T04:22:38.500Z
-   *        dateUpperBound: 2022-04-09T04:22:38.500Z
+   *        dateLowerBound: 2023-01-09T04:22:38.500Z
+   *        dateUpperBound: 2023-04-09T04:22:38.500Z
    *        results: []
    *        explorer_Id: 621a76739d66c9283edd4ba5
    *        _id: 621ce61f2dd1c65a2a286229
-   *        expiration_date: 2022-02-28T16:11:27.387Z
+   *        expiration_date: 2023-02-28T16:11:27.387Z
    */
 
   const finder = require('../controllers/finderController');

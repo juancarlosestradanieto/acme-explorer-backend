@@ -1,7 +1,10 @@
 #read environment variables
 . ./.env.dev
 
+echo "ADMINISTRATOR_EMAIL"; 
 echo ${ADMINISTRATOR_EMAIL}
+
+echo "Creating initial user as explorer";
 
 url='http://localhost:'${PORT}'/v1/actors'
 echo "url"
@@ -19,23 +22,30 @@ data='{
 	"role": "EXPLORER"
 }'
 
-CleanData=$( echo ${data} | sed 's/\\[tnr]//g' | sed 's/ //g' )
-echo "CleanData"
-echo ${CleanData}
-echo ${CleanData} > test.json
+data=$( echo ${data} | sed 's/\\[tnr]//g' | sed 's/ //g' )
+echo "data"
+echo ${data}
 
-#exit
-
-#create user administrator
 curl -X POST \
   ${url} \
   --header 'Accept: */*' \
   --header 'Content-Type: application/json' \
   --header 'Accept-Language: es' \
-  --data-raw ${CleanData}
+  --data-raw ${data}
 
-echo "falta hacer que ahora el usuario sea de tipo administrador"
+sleep 5
 
-#docker exec -it mongoContainer mongosh
+echo "Changing role to administrator";
 
-#docker-compose exec mongo_container_name /bin/bash -c 'mongo database_name -u $MONGO_USER -p $MONGO_PASSWORD --authenticationDatabase admin --eval "db.dropDatabase();"'
+mongoshCommand='db.actors.updateOne(
+   { "email": \"'${ADMINISTRATOR_EMAIL}'\" },
+   {
+     \$set: { role: [\"ADMINISTRATOR\"] }
+   }
+)'
+
+mongoshCommand=$( echo ${mongoshCommand} | sed 's/\\[tnr]//g' | sed 's/ //g' )
+
+echo ${mongoshCommand}
+
+docker exec acme-explorer-backend-mongodb-container //bin//sh -c 'mongosh '${mongoDBName}' -u '${mongoDBUser}' -p '${mongoDBPass}' --authenticationDatabase admin --eval "'${mongoshCommand}';"'

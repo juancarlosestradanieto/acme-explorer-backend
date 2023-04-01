@@ -40,7 +40,7 @@ module.exports = function (app) {
    *       - explorer_Id
    *       - trip_Id
    *      example:
-   *        applicationMoment: 2022-04-09T04:22:38.500Z
+   *        applicationMoment: 2023-04-09T04:22:38.500Z
    *        comments: Quam eius voluptas
    *        status: PENDING
    *        explorer_Id: 621a7673d84d61951111e55d
