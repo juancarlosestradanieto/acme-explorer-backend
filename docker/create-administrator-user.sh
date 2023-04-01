@@ -33,3 +33,9 @@ curl -X POST \
   --header 'Content-Type: application/json' \
   --header 'Accept-Language: es' \
   --data-raw ${CleanData}
+
+echo "falta hacer que ahora el usuario sea de tipo administrador"
+
+#docker exec -it mongoContainer mongosh
+
+#docker-compose exec mongo_container_name /bin/bash -c 'mongo database_name -u $MONGO_USER -p $MONGO_PASSWORD --authenticationDatabase admin --eval "db.dropDatabase();"'
