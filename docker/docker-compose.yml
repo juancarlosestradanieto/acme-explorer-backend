@@ -1,0 +1,39 @@
+version: '3.7'
+services:
+  acme-explorer-api:
+    container_name: acme-explorer-api-container
+    hostname: acme-explorer-api-host
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "${PORT:-8080}:${PORT:-8080}"
+    restart: on-failure
+    environment:
+      #- NODE_ENV=${NODE_ENV:-development}
+      - mongoDBHostname=mongodb
+      - mongoDBPort=27017
+      - mongoDBUser=mongoUser
+      - mongoDBPass=mongoPassword
+      - mongoDBName=acme_explorer
+      - PORT=${PORT:-8080}
+      - FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}
+      - FIREBASE_CLIENT_EMAIL=${FIREBASE_CLIENT_EMAIL}
+      - FIREBASE_ADMIN_PRIVATE_KEY=${FIREBASE_ADMIN_PRIVATE_KEY}
+    depends_on:
+      - mongodb
+    volumes:
+      - ./logging:/usr/src/app/logs
+  mongodb:
+    image: "mongo"
+    command: --logpath /var/log/mongodb/db.log
+    ports:
+      - '${MONGO_DB_PORT:-27017}:27017'
+    volumes:
+      - ./mongodbdata:/data/db
+      - ./logging:/var/log/mongodb
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongoUser
+      - MONGO_INITDB_ROOT_PASSWORD=mongoPassword
+      - MONGO_INITDB_DATABASE=acme_explorer

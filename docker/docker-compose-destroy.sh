@@ -1,0 +1,1 @@
+docker compose -p "acme-explorer-api-dev" down

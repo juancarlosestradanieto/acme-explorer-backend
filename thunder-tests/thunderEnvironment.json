@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "55e5a2fb-67c5-481b-b40e-3b1dcc1ff510",
+    "name": "ACME-Explorer-environment",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-03-01T18:28:38.866Z",
+    "modified": "2023-04-01T10:03:47.763Z",
+    "data": [
+      {
+        "name": "frontendAppFirebaseApiKey",
+        "value": "AIzaSyAUyHAu3x92LtKJvMIi-UzsDMD1QiEK2NM"
+      },
+      {
+        "name": "administratorId",
+        "value": "642800caf36b1c8ed661bd17"
+      },
+      {
+        "name": "administratorEmail",
+        "value": "Funk.8e0ba5b8fce7@icloud.com"
+      },
+      {
+        "name": "administratorPassword",
+        "value": "1234567890"
+      },
+      {
+        "name": "administratorCustomToken",
+        "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTY4MDM0MzI3OCwiZXhwIjoxNjgwMzQ2ODc4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJGdW5rLjhlMGJhNWI4ZmNlN0BpY2xvdWQuY29tIn0.PGjRk1fHJDKeOam-03n8PV4TuOMJqXmKnpEVB07FomyaHC3iOzenYUm6EGT1fy4X-icrlRg8YCgN4BZbcIGUDRVj6ozt4G5DFHWvKqOofAopYmCMu9q6wjRCR3rOYNYULnWzzH6p73PcOiBy-iIw6euPVp7UHjiRLpR-iTE1KBFyJ5ibhMzDL8YAvQ4xrXrgGHRw74yQErWml3jEEBUmFtuHvN2EySyDjzB8lQemSkGTVkmsBklbuWt8lPV0HFEKRu7sjzL4HrfC9wCIuwZ6tEeCCW0Jo4Z3HCFgWvlHNXTBDsqbwj-pHukYy5H6hi4uR2YOgeZyIjYZKKJHFisbaQ"
+      },
+      {
+        "name": "administratorIdToken",
+        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg3YzFlN2Y4MDAzNGJiYzgxYjhmMmRiODM3OTIxZjRiZDI4N2YxZGYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXVkIjoiYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXV0aF90aW1lIjoxNjgwMzQzMjc3LCJ1c2VyX2lkIjoiRnVuay44ZTBiYTViOGZjZTdAaWNsb3VkLmNvbSIsInN1YiI6IkZ1bmsuOGUwYmE1YjhmY2U3QGljbG91ZC5jb20iLCJpYXQiOjE2ODAzNDMyNzcsImV4cCI6MTY4MDM0Njg3NywiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.HbpCd2Dzifs54PcMcSlpLOs1LTHDj_oSbqK5zk7--k_vsLPlLyxT-_9xWCn4k7IqkjqmPinxIqc9kxeZ8MI0Xnkc0mlQd5dmdvd7hM3Edx4Mcyi8GS-jAscHQybfdltLBaBTF2Lqr7UzDsG9hKnzoFrHZdA-ueOSjlX8v0uGVi1iyRZyJBl3KnIJHws8ujDQXYlJmnz2FuhunapCiNKra_TCa8GKoCvKugpdO5kseqvCTdLJagNPFTnG8Nk9YhTJhva876YxN8o0xIOZmAFa5SihfZl0thtFL2TzFUdQMvsqCKor9OzkC0VhcBABiApQTCQz3wCmvA9sPtxnbH2Vyg"
+      },
+      {
+        "name": "explorerId",
+        "value": "64280159f36b1c8ed661c495"
+      },
+      {
+        "name": "explorerEmail",
+        "value": "Cremin.3a9eb42d7e39@hotmail.com"
+      },
+      {
+        "name": "explorerPassword",
+        "value": "1234567890"
+      },
+      {
+        "name": "explorerCustomToken",
+        "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTY4MDM0MzM4NSwiZXhwIjoxNjgwMzQ2OTg1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJDcmVtaW4uM2E5ZWI0MmQ3ZTM5QGhvdG1haWwuY29tIn0.iF1fR6iDgC5gOXZoHM7iIVXnZPaVCMEk6juSs6sOOdO3ziOx-BDzg7DyIm-RF3INYK2nnYIXVvHjDxHlgNdQ_dW9VB6VwnBK2BNJEDUD6SUs8JvEepUQqL1Q7m8BtG8TcwDPsM8aPgYc0LgX0t49BKm_pmbtUPhVyMez_3eSVcHUwXplMtraH_HjIs1OGEhOuJBZNV4ABHtsLB7XycKSa6pYh09pp5SmAQm8JnQUYQfsVliT4JI6uZB_PjdiBHSRQnLhGoQ7rIn0rRSLE2YQjEWmxZ_ZbosnhGQ0ejhpc1Tw_cTtA8027ewsXEyBkF4wdqC2fxe3At_C5cmfst_Xow"
+      },
+      {
+        "name": "explorerIdToken",
+        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg3YzFlN2Y4MDAzNGJiYzgxYjhmMmRiODM3OTIxZjRiZDI4N2YxZGYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXVkIjoiYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXV0aF90aW1lIjoxNjgwMzQzMzgzLCJ1c2VyX2lkIjoiQ3JlbWluLjNhOWViNDJkN2UzOUBob3RtYWlsLmNvbSIsInN1YiI6IkNyZW1pbi4zYTllYjQyZDdlMzlAaG90bWFpbC5jb20iLCJpYXQiOjE2ODAzNDMzODMsImV4cCI6MTY4MDM0Njk4MywiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.d0JmiKZ8vGmzGeqD0gC0AvdMy7Ez5aoIl94MMtOEcnVuqOdc3EB2YDkPB3CdRgn1NlnX3iS7bHS67HoGbz3RgT9e0_NqsrbhL6jXycLvCJ8XbAj366dPZeztsq3CbZJHZqV5aQ7ZBgVPDyNojhkXZjh309GPEYRfr1lzyicgSuTLeVHKXH4s5IaMFfsN5M0uaRYqbJGEqs3obyLLzh5_QeHpP2ajvM_7lYJrtEO2wOFvE8f_w4AqVHwE2_ecUM1xdAKIGvvVrcPFeF9LhHL1LFt_rXT_k5NLPSOGi-wDXsLAPAL3xpVl13Jx3JK6AVI70PJBsSjeCUIn-TDBObRaUQ"
+      },
+      {
+        "name": "explorerIdStats",
+        "value": "6428009f1d70f7548a740bb9"
+      },
+      {
+        "name": "managerId",
+        "value": "64280183f36b1c8ed661c827"
+      },
+      {
+        "name": "managerEmail",
+        "value": "Cormier.cc78b3181d75@yahoo.com"
+      },
+      {
+        "name": "managerPassword",
+        "value": "1234567890"
+      },
+      {
+        "name": "managerCustomToken",
+        "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTY4MDM0MzQyNywiZXhwIjoxNjgwMzQ3MDI3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJDb3JtaWVyLmNjNzhiMzE4MWQ3NUB5YWhvby5jb20ifQ.PoD7u8wZlnC5Np7MUX0vKilS34y-9NmE1ID6EbXHpzsJ-gOgBm0jlXUIIixNp2JlHk6Ot7aUpVclb7O_srdMxbJHIhwyxCHTlvcI7oebSHldGJXYPWgOS6C3I7DgnsSLEfrrTAPTbPg4aTQ_4oQezbfTP6e9w8sYrInhu2sQKp4DFmwqPGRnpRYlAb3ZXnzsAe8fTdu3zZPDLNeq8v1DSHnamMZsx_KZ5r1Z7tZv_7_iZBSFLucX5A9snRDDe4o1_KOhlXT2RHjEiK8ufWYQxJjanovvwiGWdztA4kP9wxe-VdvoWBACPoWwk8QKEfH3UTepfjsF_1-YOVhW3yXlVg"
+      },
+      {
+        "name": "managerIdToken",
+        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg3YzFlN2Y4MDAzNGJiYzgxYjhmMmRiODM3OTIxZjRiZDI4N2YxZGYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXVkIjoiYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXV0aF90aW1lIjoxNjgwMzQzNDI1LCJ1c2VyX2lkIjoiQ29ybWllci5jYzc4YjMxODFkNzVAeWFob28uY29tIiwic3ViIjoiQ29ybWllci5jYzc4YjMxODFkNzVAeWFob28uY29tIiwiaWF0IjoxNjgwMzQzNDI1LCJleHAiOjE2ODAzNDcwMjUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnt9LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.hNPhjhPWMYgdePkYIMb40MqBUAgwDFWTrqUo6s7D_8_n5CW_d6KdVNq1xvlyJlakFqJSDcVMuwMHsi6nTHxplk8LW3Z2FRFcP3wK5T5h7hGLoNXeRJRLS0JvFhno2u0P8M6gcFmvPCVdFYeJ2xIupdAwIc1D48mfpU88P23JYwShbGrZiz_JMKVar3EiYm_1EWK-ngUxDJKXlk18lAT6ODFYba7RkTgz9ROD_Xq27s1tzQTODdvSLkHsft5CBFET6QnT3WuRHnQPLjqk6VO0gTExh6Ns1H3qpMADkk4rr6vyiRRykv7qOSnrcJy9igDvEmO4CAqkmNwprEJa74Iycw"
+      },
+      {
+        "name": "sponsorId",
+        "value": "64280166f36b1c8ed661c56d"
+      },
+      {
+        "name": "sponsorEmail",
+        "value": "Diaz.e2d857a89a1c@hey.com"
+      },
+      {
+        "name": "sponsorPassword",
+        "value": "1234567890"
+      },
+      {
+        "name": "sponsorCustomToken",
+        "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTY4MDM0MzM5OSwiZXhwIjoxNjgwMzQ2OTk5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1oaW90OUBhY21lLWV4cGxvcmVyLWZyb250ZW5kLWpjZW4uaWFtLmdzZXJ2aWNlYWNjb3VudC5jb20iLCJ1aWQiOiJEaWF6LmUyZDg1N2E4OWExY0BoZXkuY29tIn0.aHyPs31PBtrlWX-AU0yDqymEYYTA7YDAPL4VQBTcZLB66sBd7a-lAdcDSqOxQAPNmTuIes6EP5OYbetpSh_pYhg8G6I--4VheD2NbgH80U10ntOtWAmOB1cWjqMJ6ftG3guU_yOXflRGExfuOSUUL_kVogZTduis--bLIK8bhbCimTrxFlnoYHEtvsCPP9cazY5s7-GMfPtCjM-qRJqqtBws_vooC8mEIwRj9SjhRGL-SYshsxXdndKvwMRF_eLwpuN7iMBGMdN95kGkAXO1Re3PURLyh0TtgC_cKuc1hlAr2jA6l_wMV0SzN0eu1qKPBMwoe2mxUZZPVqLQY5kfwQ"
+      },
+      {
+        "name": "sponsorIdToken",
+        "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg3YzFlN2Y4MDAzNGJiYzgxYjhmMmRiODM3OTIxZjRiZDI4N2YxZGYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXVkIjoiYWNtZS1leHBsb3Jlci1mcm9udGVuZC1qY2VuIiwiYXV0aF90aW1lIjoxNjgwMzQzMzk3LCJ1c2VyX2lkIjoiRGlhei5lMmQ4NTdhODlhMWNAaGV5LmNvbSIsInN1YiI6IkRpYXouZTJkODU3YTg5YTFjQGhleS5jb20iLCJpYXQiOjE2ODAzNDMzOTcsImV4cCI6MTY4MDM0Njk5NywiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJjdXN0b20ifX0.U9CDuN7FkfuD74RS_cAWqm0TlzpESY7DmPtxEUX68jlEqFnVzDueeFWl2Gn6uZosLXLiSEy5jWl7E1hbYxMYc34oxt8sRUXnzcLX72jmzldT9kbKR4cz07yEok8aaIL0Y4iKbzpuaFZuPTJ3uZvYhDxgpnI8xjbtQOFzg5jcVKMKE_HSLgUYk6kUWSCFhoDz1lSyqtQNwe_SPArH5zrY4UnHkSAWGeh8dEiV4CBWxo4UmDuiXjixtYOr1VZDBUoY4GD6-O3o64RBujVLyr3srFtpVBJKFxdqZ_aASB-eqfLk_tH669MhRg1JIVo0Fa82yNHvH01BsPJ4EnRfhYAjkw"
+      },
+      {
+        "name": "tripId",
+        "value": "64280183f36b1c8ed661c822"
+      },
+      {
+        "name": "Accept-Language",
+        "value": "es"
+      },
+      {
+        "name": "sponsorshipId",
+        "value": ""
+      },
+      {
+        "name": "applicationId",
+        "value": "62361378dcd7a9e144b9b34a"
+      },
+      {
+        "name": "explorerId2",
+        "value": "621a7673d84d61951111e55d"
+      }
+    ]
+  }
+]

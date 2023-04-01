@@ -1,0 +1,11 @@
+{
+  "name": "John Charles",
+  "surname": "Road Grandson",
+  "email": "#{email}",
+  "password": "1234567890",
+  "language": ["SPANISH"],
+  "phone_number": 123456789,
+  "address": "The world is my playground",
+  "role": ["EXPLORER"],
+  "isActive": true
+}

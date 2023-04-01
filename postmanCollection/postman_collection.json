@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "f9ab430a-5614-47e9-ae56-dbc6e94c0ded",
+		"name": "ACME-Explorer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST ACTOR-ADMINISTRATOR",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"CustomerName\",\n\t\"surname\": \"CustomerSurname\",\n\t\"email\": \"customer@fakemail.com\",\n\t\"language\": \"SPANISH\",\n\t\"phone_number\": \"+34612345678\",\n\t\"address\": \"myAddress\",\n    \"isActive\": true,\n\t\"role\": \"ADMINISTRATOR\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/v1/actors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"actors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ACTOR-ADMINISTRATOR",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"CustomerName\",\n\t\"surname\": \"CustomerSurname\",\n\t\"email\": \"customer@fakemail.com\",\n\t\"language\": \"SPANISH\",\n\t\"phone_number\": \"+34612345678\",\n\t\"address\": \"myAddress\",\n    \"isActive\": false,\n\t\"role\": \"ADMINISTRATOR\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/v1/actors/620585452be482d4c4e28f5b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"actors",
+						"620585452be482d4c4e28f5b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL ACTORS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/actors/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"actors",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ACTOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/actors/620585452be482d4c4e28f5b",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"actors",
+						"620585452be482d4c4e28f5b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
