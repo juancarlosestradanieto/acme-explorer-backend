@@ -3,4 +3,4 @@ docker compose -p "acme-explorer-api-dev" down
 #delete folders of logs and data
 rm -rf ./logging
 rm -rf ./mongodbdata
-rm loginResponse*.json
+rm responses/loginResponse*.json
