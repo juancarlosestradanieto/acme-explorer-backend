@@ -61,20 +61,26 @@ exports.verifyAuthenticadedActor = function (requiredRoles) {
 
       const authenticatedActor = await getAuthenticadedActor(idToken);
       console.log('authenticatedActor: ', authenticatedActor);
+      console.log('requiredRoles: ', requiredRoles);
+      console.log('authenticatedActor.isActive: ', authenticatedActor.isActive);
 
       if (authenticatedActor === null) {
         res.status(401).send(req.t('No actor was found with the given idToken.'));
-      } else {
+      } 
+      else 
+      {
         const actorRoles = authenticatedActor.role;
+        console.log('actorRoles: ', actorRoles);
 
         let isAuth = false;
 
         for (let i = 0; i < requiredRoles.length; i++) {
           for (let j = 0; j < actorRoles.length; j++) {
             if (requiredRoles[i] === actorRoles[j]) {
-              // console.log('requiredRoles', requiredRoles[i], 'actorRoles', actorRoles[j]);
+              console.log('requiredRoles[i]', requiredRoles[i], 'actorRoles[j]', actorRoles[j]);
 
-              if (authenticatedActor.isActive === true) {
+              if(authenticatedActor.isActive === true) 
+              {
                 isAuth = true;
                 // this forces a break, but for both for loops at once
                 i = requiredRoles.length;
