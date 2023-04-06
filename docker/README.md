@@ -65,7 +65,7 @@ What this script does is:
 
 ## 4 - Configure frontend
 
-Use the file <code>path-to-backend-repository/docker/credentials/firebase-web-app.js</code>.
+Use values in the file <code>path-to-backend-repository/docker/credentials/firebase-web-app.js</code> to set frontend's <code>.env</code> variables.
 
 ## 5 - Eliminate all containers.
 
