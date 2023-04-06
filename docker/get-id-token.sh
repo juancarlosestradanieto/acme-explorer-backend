@@ -1,5 +1,5 @@
 #read environment variables
-. ./.env.dev
+. ./.env
 
 USER_EMAIL=test1680707388663@gmail.com
 USER_PASSWORD=1234567890

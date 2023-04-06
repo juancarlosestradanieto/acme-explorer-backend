@@ -2,3 +2,4 @@ node_modules
 massiveLoad/*.json
 docker/credentials/*
 docker/responses/*
+docker/responses/.env

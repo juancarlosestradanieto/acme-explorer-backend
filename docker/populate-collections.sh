@@ -1,5 +1,5 @@
 #read environment variables
-. ./.env.dev
+. ./.env
 
 API_BASE_URL='http://localhost:'${PORT}
 
@@ -23,7 +23,7 @@ echo $loginResponse1 > responses/loginResponse1.json
 
 administratorCustomToken=$( awk 'BEGIN { FS="\""; RS="," }; { if ($2 == "customToken") {print $4} }' responses/loginResponse1.json )
 
-echo "\n administratorCustomToken"
+echo "administratorCustomToken"
 echo ${administratorCustomToken}
 
 echo "verify custom token"
@@ -42,7 +42,7 @@ echo $loginResponse2 > responses/loginResponse2.json
 
 administratorIdToken=$( awk 'BEGIN { FS="\""; RS="," }; { if ($2 == "idToken") {print $4} }' responses/loginResponse2.json )
 
-echo "\n administratorIdToken"
+echo "administratorIdToken"
 echo ${administratorIdToken}
 
 

@@ -1,5 +1,5 @@
 #read environment variables
-. ./.env.dev
+. ./.env
 
 echo "ADMINISTRATOR_EMAIL"; 
 echo ${ADMINISTRATOR_EMAIL}

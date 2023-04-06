@@ -1,5 +1,5 @@
 # Deploy developement app
-docker compose -p "acme-explorer-api-dev" --env-file .env.dev up --build -d
+docker compose -p "acme-explorer-api-dev" --env-file .env up --build -d
 
 echo "Please wait 30 seconds while mongo db is initialized"
 sleep 30

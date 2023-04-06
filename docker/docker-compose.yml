@@ -12,7 +12,7 @@ services:
     environment:
       #- NODE_ENV=${NODE_ENV:-development}
       - mongoDBHostname=mongodb
-      - mongoDBPort=${MONGO_DB_PORT:-27017}
+      - mongoDBPort=27017
       - mongoDBUser=${mongoDBUser:-mongoUser}
       - mongoDBPass=${mongoDBPass:-mongoPassword}
       - mongoDBName=${mongoDBName:-acme_explorer}
