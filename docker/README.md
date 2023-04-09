@@ -37,7 +37,7 @@ Special considerations.
 * <code>ADMINISTRATOR_EMAIL</code> variable must be a valid email.
 * <code>ADMINISTRATOR_PASSWORD</code> variable must have at least 10 characters.
 * The values of variables in the section "#FIREBASE PROJECT SERVICE ACCOUNT JSON" must be filled with the values in the file <code>path-to-backend-repository/docker/credentials/firebase-service-account.json</code>.
-* Variable <code>FIREBASE_ADMIN_PRIVATE_KEY</code> is the only variable that must be contained within a pair of double quotation marks, otherwise, it will cause scripts to fail.
+* The variable <code>FIREBASE_ADMIN_PRIVATE_KEY</code> is the only variable that must be contained within a pair of double quotation marks, otherwise, it will cause scripts to fail.
 * The variable <code>FIREBASE_FRONTEND_WEB_APP_API_KEY</code> must be filled with the value of <code>firebaseConfig.apiKey</code> in file <code>path-to-backend-repository/docker/credentials/firebase-web-app.js</code>.
 
 ## 3 - Build docker container
