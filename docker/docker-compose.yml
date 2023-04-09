@@ -28,6 +28,7 @@ services:
     container_name: acme-explorer-backend-mongodb-container
     hostname: acme-explorer-backend-mongodb-host
     image: "mongo"
+    restart: unless-stopped
     command: --logpath /var/log/mongodb/db.log
     ports:
       - '${MONGO_DB_PORT:-27017}:27017'
