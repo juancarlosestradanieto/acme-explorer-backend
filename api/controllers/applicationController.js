@@ -124,6 +124,19 @@ exports.find_by_manager_id = function (req, res) {
   );
 };
 
+exports.find_by_trip_id = function (req, res) {
+  Application.find(
+    { trip_Id: req.params.tripId },
+    function (err, applications) {
+      if (err) {
+        res.send(err);
+      } else {
+        res.json(applications);
+      }
+    }
+  );
+};
+
 exports.find_by_explorer_id = function (req, res) {
   if (!req.query.status) {
     Application.find(
