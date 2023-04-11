@@ -26,6 +26,7 @@
   "dependencies": {
     "async": "^3.2.3",
     "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "cron": "^1.8.2",
     "date-format": "^4.0.4",
     "express": "^4.17.2",
