@@ -4,6 +4,11 @@ const port = process.env.PORT || 8080;
 const mongoose = require('mongoose');
 var mongoConfig = require('./mongoConfig');
 
+const cors = require('cors');
+app.use(cors({
+    origin: '*'
+}));
+
 //register schemas
 const Actor = require('./api/models/actorModel');
 const Sponsorship = require('./api/models/sponsorShipModel');
