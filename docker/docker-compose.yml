@@ -24,6 +24,8 @@ services:
       - mongodb
     volumes:
       - ./logging:/usr/src/app/logs
+      - ../:/usr/src/app
+      - /usr/src/app/node_modules
   mongodb:
     container_name: acme-explorer-backend-mongodb-container
     hostname: acme-explorer-backend-mongodb-host

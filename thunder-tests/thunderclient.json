@@ -1456,7 +1456,7 @@
     "method": "GET",
     "sortNum": 5000,
     "created": "2022-03-12T20:13:40.344Z",
-    "modified": "2022-03-13T23:46:02.612Z",
+    "modified": "2023-04-13T11:13:31.516Z",
     "headers": [
       {
         "name": "Accept-Language",
@@ -2950,6 +2950,70 @@
       }
     ],
     "params": [],
+    "tests": [
+      {
+        "type": "res-code",
+        "custom": "",
+        "action": "equal",
+        "value": "200"
+      }
+    ]
+  },
+  {
+    "_id": "9c91bc7c-a4a1-491b-91d4-1540a73cbfd2",
+    "colId": "96813a03-b2bb-4303-bb25-9c9e805bb65b",
+    "containerId": "",
+    "name": "GET CANCELED TRIPS",
+    "url": "http://localhost:8080/v1/trips?canceled=true",
+    "method": "GET",
+    "sortNum": 18750,
+    "created": "2023-04-13T11:13:52.919Z",
+    "modified": "2023-04-13T11:14:20.832Z",
+    "headers": [
+      {
+        "name": "Accept-Language",
+        "value": "{{Accept-Language}}"
+      }
+    ],
+    "params": [
+      {
+        "name": "canceled",
+        "value": "true",
+        "isPath": false
+      }
+    ],
+    "tests": [
+      {
+        "type": "res-code",
+        "custom": "",
+        "action": "equal",
+        "value": "200"
+      }
+    ]
+  },
+  {
+    "_id": "06dd4731-de28-4116-a4db-fbc1c25ad7d2",
+    "colId": "96813a03-b2bb-4303-bb25-9c9e805bb65b",
+    "containerId": "",
+    "name": "GET NOT CANCELED TRIPS",
+    "url": "http://localhost:8080/v1/trips?canceled=false",
+    "method": "GET",
+    "sortNum": 19375,
+    "created": "2023-04-13T11:22:49.249Z",
+    "modified": "2023-04-13T11:23:07.220Z",
+    "headers": [
+      {
+        "name": "Accept-Language",
+        "value": "{{Accept-Language}}"
+      }
+    ],
+    "params": [
+      {
+        "name": "canceled",
+        "value": "false",
+        "isPath": false
+      }
+    ],
     "tests": [
       {
         "type": "res-code",

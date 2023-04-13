@@ -146,6 +146,12 @@ module.exports = function (app) {
   *          required: false
   *          description: Boolean parameter to filter or not published trips.
   *        - in: query
+  *          name: canceled
+  *          schema:
+  *            type: boolean
+  *          required: false
+  *          description: Boolean parameter to filter or not canceled trips.
+  *        - in: query
   *          name: page
   *          schema:
   *            type: integer

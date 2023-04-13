@@ -12,6 +12,7 @@ exports.list_all_trips = function (req, res) {
 
   let query = Trip.find();
 
+  //keyword
   if (typeof keyword !== 'undefined') {
     const amountOfWords = keyword.split(' ').length;
 
@@ -19,8 +20,9 @@ exports.list_all_trips = function (req, res) {
       return res.status(422).send(req.t('Keyword must be a single word.'));
     }
 
-    const reg = new RegExp(keyword);
-
+    //const reg = new RegExp(keyword);
+    const reg = {'$regex' : keyword, '$options' : 'i'};
+    //query = query.and({title:{'$regex' : keyword, '$options' : 'i'}})
     query = query.and([{
       $or: [
         { ticker: reg },
@@ -30,11 +32,13 @@ exports.list_all_trips = function (req, res) {
     }]);
   }
 
+  //managerId
   const managerId = req.query.managerId;
   if (typeof managerId !== 'undefined') {
     query = query.and([{ managerId: managerId }]);
   }
 
+  //published
   const publishedParameter = req.query.published;
   // console.log('publishedParameter', publishedParameter);
   // console.log('typeof publishedParameter', typeof publishedParameter);
@@ -48,6 +52,21 @@ exports.list_all_trips = function (req, res) {
     }
   }
 
+  //canceled
+  const canceledParameter = req.query.canceled;
+  // console.log('canceledParameter', canceledParameter);
+  // console.log('typeof canceledParameter', typeof canceledParameter);
+  if (typeof canceledParameter !== 'undefined') {
+    const canceled = (canceledParameter === 'true');
+
+    if (canceled) {
+      query = query.and({ canceled: true });
+    } else {
+      query = query.and({ canceled: false });
+    }
+  }
+
+  //page
   let page = 1;
   const pageParameter = req.query.page;
   if (typeof pageParameter !== 'undefined' && !isNaN(pageParameter)) {
