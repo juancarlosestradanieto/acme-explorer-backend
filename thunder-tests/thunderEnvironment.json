@@ -5,12 +5,8 @@
     "default": true,
     "sortNum": 10000,
     "created": "2022-03-01T18:28:38.866Z",
-    "modified": "2023-04-01T18:45:33.358Z",
+    "modified": "2023-04-13T23:06:40.840Z",
     "data": [
-      {
-        "name": "frontendAppFirebaseApiKey",
-        "value": ""
-      },
       {
         "name": "administratorId",
         "value": "642800caf36b1c8ed661bd17"
@@ -25,10 +21,6 @@
       },
       {
         "name": "administratorCustomToken",
-        "value": ""
-      },
-      {
-        "name": "administratorIdToken",
         "value": ""
       },
       {
@@ -115,6 +107,7 @@
         "name": "explorerId2",
         "value": "621a7673d84d61951111e55d"
       }
-    ]
+    ],
+    "envFile": ".env"
   }
 ]

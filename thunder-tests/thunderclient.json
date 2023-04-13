@@ -1380,11 +1380,11 @@
     "colId": "4e485e98-6063-4e56-9162-24a9b9d9906a",
     "containerId": "",
     "name": "START DASHBOAR INFORMATION JOB",
-    "url": "http://localhost:8080/v1/dashboardInformation?rebuildPeriod=*/10 * * * * *",
+    "url": "http://localhost:8080/v1/dashboardInformation?rebuildPeriod=*/2 * * * *",
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-03-12T14:52:26.372Z",
-    "modified": "2022-03-13T23:39:21.859Z",
+    "modified": "2023-04-13T23:07:32.705Z",
     "headers": [
       {
         "name": "idToken",
@@ -1398,7 +1398,7 @@
     "params": [
       {
         "name": "rebuildPeriod",
-        "value": "*/10 * * * * *",
+        "value": "*/2 * * * *",
         "isPath": false
       }
     ],

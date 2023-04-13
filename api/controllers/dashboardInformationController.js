@@ -28,7 +28,7 @@ exports.rebuild_period = function (req, res) {
     rebuildPeriod = req.query.rebuildPeriod;
     computeDashboardInformationJob.setTime(new CronTime(rebuildPeriod));
     computeDashboardInformationJob.start();
-    res.status(201).json({ error: false, message: 'Rebuild period successfully defined.', rebuildPeriod });
+    res.status(201).json({ error: false, message: req.t('Rebuild period successfully defined.'), rebuildPeriod });
   } catch (err) {
     res.status(500).json({ error: true, message: 'Error trying to define the rebuild period.' });
   }
