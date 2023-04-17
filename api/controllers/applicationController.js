@@ -298,8 +298,10 @@ exports.cancelled_application = function (req, res) {
         console.error('The application Id is wrong');
         res.sendStatus(400);
       } else {
-        if (application.status !== 'ACCEPTED') {
-          console.error('The status is not ACCEPTED');
+        let statuses = ['PENDING', 'DUE'];
+        //if (application.status !== 'ACCEPTED') {
+        if (!statuses.includes(application.status)) {
+          console.error('The status is not PENDING or DUE');
           res.sendStatus(400);
         } else {
           Application.findOneAndUpdate(
