@@ -25,7 +25,7 @@ module.exports = function (app) {
    *          description: The application trip_Id.
    *        rejected_reason:
    *          type: string
-   *          description: The application rjected reason.
+   *          description: The application rejected reason.
    *        tripPrice:
    *          type: number
    *          description: The application trip price.
@@ -124,7 +124,7 @@ module.exports = function (app) {
    *            application/json:
    *              schema:
    *                type: object
-   *                $ref: '#/components/schemas/Application '
+   *                $ref: '#/components/schemas/Application'
    *        403:
    *          description: You don't have right role to carry out this operation.
    *        404:
@@ -157,7 +157,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        404:
      *          description: Actor not found.
      *        500:
@@ -188,7 +188,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        404:
      *          description: Actor not found.
      *        500:
@@ -219,7 +219,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        404:
      *          description: Actor not found.
      *        500:
@@ -283,7 +283,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
@@ -316,7 +316,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
@@ -349,7 +349,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
