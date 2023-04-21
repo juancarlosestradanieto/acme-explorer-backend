@@ -62,13 +62,14 @@ exports.verifyAuthenticadedActor = function (requiredRoles) {
       const authenticatedActor = await getAuthenticadedActor(idToken);
       console.log('authenticatedActor: ', authenticatedActor);
       console.log('requiredRoles: ', requiredRoles);
-      console.log('authenticatedActor.isActive: ', authenticatedActor.isActive);
 
       if (authenticatedActor === null) {
         res.status(401).send(req.t('No actor was found with the given idToken.'));
       } 
       else 
       {
+        console.log('authenticatedActor.isActive: ', authenticatedActor.isActive);
+        
         const actorRoles = authenticatedActor.role;
         console.log('actorRoles: ', actorRoles);
 
