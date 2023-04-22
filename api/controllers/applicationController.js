@@ -256,7 +256,7 @@ exports.pay_application = function (req, res) {
     } else {
       if (!application) {
         console.error('The application Id is wrong');
-        res.sendStatus(400);
+        res.sendStatus(404);
       } else {
         if (application.status !== 'DUE') {
           console.error('The status is not DUE');

@@ -25,7 +25,7 @@ module.exports = function (app) {
    *          description: The application trip_Id.
    *        rejected_reason:
    *          type: string
-   *          description: The application rjected reason.
+   *          description: The application rejected reason.
    *        tripPrice:
    *          type: number
    *          description: The application trip price.
@@ -124,7 +124,7 @@ module.exports = function (app) {
    *            application/json:
    *              schema:
    *                type: object
-   *                $ref: '#/components/schemas/Application '
+   *                $ref: '#/components/schemas/Application'
    *        403:
    *          description: You don't have right role to carry out this operation.
    *        404:
@@ -157,7 +157,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        404:
      *          description: Actor not found.
      *        500:
@@ -188,7 +188,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        404:
      *          description: Actor not found.
      *        500:
@@ -219,7 +219,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        404:
      *          description: Actor not found.
      *        500:
@@ -283,7 +283,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
@@ -303,6 +303,8 @@ module.exports = function (app) {
      *      summary: Pay an application.
      *      tags: [Application ]
      *      parameters:
+     *        - in: header
+     *          $ref: '#/components/parameters/PreferredLanguage'
      *        - in: path
      *          name: applicationId
      *          schema:
@@ -316,13 +318,19 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
+     *        400:
+     *          description: Application status invalid.
+     *        401:
+     *          description: Unauthorized.
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
-     *          description: Actor not found.
+     *          description: Application not found.
      *        500:
-     *          description: Error trying to ban the application .
+     *          description: Error trying to pay the application.
+     *      security:
+     *        - ApiKeyAuth: []
      */
     .patch(
       authController.verifyAuthenticadedActor(['EXPLORER']),
@@ -349,7 +357,7 @@ module.exports = function (app) {
      *            application/json:
      *              schema:
      *                type: object
-     *                $ref: '#/components/schemas/Application '
+     *                $ref: '#/components/schemas/Application'
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
