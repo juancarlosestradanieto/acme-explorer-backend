@@ -8,21 +8,20 @@ const Trip = mongoose.model('Trips');
 // ------------------------------------------------------------------------------
 
 exports.list_all_trips = function (req, res) {
-  const keyword = req.query.keyword;
+  const keyWord = req.query.keyWord;
 
   let query = Trip.find();
 
-  //keyword
-  if (typeof keyword !== 'undefined') {
-    const amountOfWords = keyword.split(' ').length;
+  //keyWord
+  if (typeof keyWord !== 'undefined') {
+    const amountOfWords = keyWord.split(' ').length;
 
-    if (amountOfWords > 1) {
+    if (amountOfWords > 1) 
+    {
       return res.status(422).send(req.t('Keyword must be a single word.'));
     }
 
-    //const reg = new RegExp(keyword);
-    const reg = {'$regex' : keyword, '$options' : 'i'};
-    //query = query.and({title:{'$regex' : keyword, '$options' : 'i'}})
+    const reg = {'$regex' : keyWord, '$options' : 'i'};
     query = query.and([{
       $or: [
         { ticker: reg },
@@ -64,6 +63,31 @@ exports.list_all_trips = function (req, res) {
     } else {
       query = query.and({ canceled: false });
     }
+  }
+
+  //price
+  const priceLowerBound = req.query.priceLowerBound;
+  const priceUpperBound = req.query.priceUpperBound;
+
+  if (typeof priceLowerBound !== 'undefined' && typeof priceUpperBound !== 'undefined') 
+  {
+    query = query.and({price:{$gte:priceLowerBound,$lte:priceUpperBound}});
+    //query = query.and({createdAt:{$gte:ISODate("2021-01-01"),$lt:ISODate("2020-05-01")}});
+  }
+
+  //date
+  const dateLowerBound = req.query.dateLowerBound;
+  const dateUpperBound = req.query.dateUpperBound;
+
+  if (typeof dateLowerBound !== 'undefined' && typeof dateUpperBound !== 'undefined') 
+  {
+    let startDate = new Date(dateLowerBound);
+    let endDate = new Date(dateUpperBound);
+    console.log("startDate ", startDate);
+    console.log("endDate ", endDate);
+    //query = query.and({startDate:{$gte:startDate,$lte:endDate}});
+    query = query.and({startDate:{$gte:startDate}});
+    query = query.and({endDate:{$lte:endDate}});
   }
 
   //page

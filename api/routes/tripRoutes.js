@@ -128,7 +128,7 @@ module.exports = function (app) {
   *        - in: header
   *          $ref: '#/components/parameters/PreferredLanguage'
   *        - in: query
-  *          name: keyword
+  *          name: keyWord
   *          schema:
   *            type: string
   *          required: false
@@ -151,6 +151,34 @@ module.exports = function (app) {
   *            type: boolean
   *          required: false
   *          description: Boolean parameter to filter or not canceled trips.
+  *        - in: query
+  *          name: priceLowerBound
+  *          schema:
+  *            type: integer
+  *          required: false
+  *          description: Minimum trip price.
+  *          example: 10
+  *        - in: query
+  *          name: priceUpperBound
+  *          schema:
+  *            type: integer
+  *          required: false
+  *          description: Maximum trip price.
+  *          example: 350
+  *        - in: query
+  *          name: dateLowerBound
+  *          schema:
+  *            type: date
+  *          required: false
+  *          description: Minimum trip start date.
+  *          example: 2023-04-01
+  *        - in: query
+  *          name: dateUpperBound
+  *          schema:
+  *            type: date
+  *          required: false
+  *          description: Maximum trip end date.
+  *          example: 2023-04-30
   *        - in: query
   *          name: page
   *          schema:
