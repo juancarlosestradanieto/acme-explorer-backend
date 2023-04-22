@@ -322,7 +322,9 @@ module.exports = function (app) {
      *        404:
      *          description: Actor not found.
      *        500:
-     *          description: Error trying to ban the application .
+     *          description: Error trying to ban the application.
+     *      security:
+     *        - ApiKeyAuth: []
      */
     .patch(
       authController.verifyAuthenticadedActor(['EXPLORER']),
