@@ -303,6 +303,8 @@ module.exports = function (app) {
      *      summary: Pay an application.
      *      tags: [Application ]
      *      parameters:
+     *        - in: header
+     *          $ref: '#/components/parameters/PreferredLanguage'
      *        - in: path
      *          name: applicationId
      *          schema:
@@ -317,12 +319,16 @@ module.exports = function (app) {
      *              schema:
      *                type: object
      *                $ref: '#/components/schemas/Application'
+     *        400:
+     *          description: Application status invalid.
+     *        401:
+     *          description: Unauthorized.
      *        403:
      *          description: You don't have right role to carry out this operation.
      *        404:
-     *          description: Actor not found.
+     *          description: Application not found.
      *        500:
-     *          description: Error trying to ban the application.
+     *          description: Error trying to pay the application.
      *      security:
      *        - ApiKeyAuth: []
      */
