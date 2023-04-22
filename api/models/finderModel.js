@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const FinderSchema = new Schema({
   keyWord: {
     type: String,
-    required: 'Kindly enter the actor surname'
+    //required: 'Kindly enter the actor surname'
   },
   priceLowerBound: {
     type: Number

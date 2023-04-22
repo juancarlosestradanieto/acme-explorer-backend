@@ -136,7 +136,7 @@ routesTrip(app);
 
 const mongoDBURI = mongoConfig.getMongoDbUri();
 
-mongoose.set('debug', false); // util para ver detalle de las operaciones que se realizan contra mongodb
+mongoose.set('debug', true); // util para ver detalle de las operaciones que se realizan contra mongodb
 
 // mongoose.connect(mongoDBURI)
 mongoose.connect(mongoDBURI, {

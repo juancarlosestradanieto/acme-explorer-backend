@@ -71,8 +71,14 @@ module.exports = function (app) {
    *          description: Validation error.
    *        500:
    *          description: Error trying to create the finder.
+   *      security:
+   *        - ApiKeyAuth: []
    */
-  app.route('/v1/finder').post(authController.verifyAuthenticadedActor(['EXPLORER']),finder.create_a_finder);
+  app.route('/v1/finder')
+  .post(
+    authController.verifyAuthenticadedActor(['EXPLORER']),
+    finder.create_a_finder
+  );
 
   /**
    * @swagger

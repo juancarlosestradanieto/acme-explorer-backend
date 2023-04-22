@@ -5,24 +5,77 @@ const Finder = mongoose.model('Finder');
 const Trip = mongoose.model('Trips');
 
 exports.create_a_finder = function (req, res) {
-  const newFinder = new Finder(req.body);
 
-  if (!newFinder) {
+  console.info(
+    'New POST request to /finder with req.body: ' +
+    JSON.stringify(req.body, 2, null)
+  );
+
+  console.info(
+    'New POST request to /finder with req.query: ' +
+    JSON.stringify(req.query, 2, null)
+  );
+
+  const explorer_Id = req.body.explorer_Id;
+  const keyWord = req.body.keyWord;
+  const priceLowerBound = req.body.priceLowerBound;
+  const priceUpperBound = req.body.priceUpperBound;
+  const dateLowerBound = req.body.dateLowerBound;
+  const dateUpperBound = req.body.dateUpperBound;
+
+  if (
+    typeof explorer_Id === 'undefined' ||
+    (
+      typeof keyWord === 'undefined' && 
+      typeof priceLowerBound === 'undefined' && 
+      typeof priceUpperBound === 'undefined' && 
+      typeof dateLowerBound === 'undefined' && 
+      typeof dateUpperBound === 'undefined'
+    )
+  )
+  {
+    res.sendStatus(400);//bad request
+  }
+  else
+  {
+
+    const newFinder = new Finder(req.body);
+
+    newFinder.save(function (err, finder) {
+      if (err) {
+        console.error('err: ', err);
+        res.send(err);
+      } else {
+        res.status(201).json(finder);
+      }
+    });
+  }
+
+  /*
+  if (!newFinder) 
+  {
     console.warn('New POST request to /finder/ without finder, sending 400...');
     res.sendStatus(400); // bad request
-  } else {
+  } 
+  else 
+  {
     console.info(
       'New POST request to /finder with body: ' +
         JSON.stringify(newFinder, 2, null)
     );
-    if (!newFinder.keyWord || !newFinder.explorer_Id) {
+
+    if ( !newFinder.explorer_Id ) 
+    {
       console.warn(
         'The finder' +
           JSON.stringify(newFinder, 2, null) +
           ' is not well-formed, sending 422...'
       );
       res.sendStatus(422); // unprocessable entity
-    } else {
+    } 
+    else 
+    {
+
       const date = new Date(Date.now());
       date.setHours(date.getHours() + 1);
 
@@ -35,8 +88,11 @@ exports.create_a_finder = function (req, res) {
           res.sendStatus(201); // created
         }
       });
+
     }
   }
+  */
+
 };
 
 exports.find_by_explorer_id = function (req, res) {
