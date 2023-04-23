@@ -104,6 +104,41 @@ exports.find_by_explorer_id = function (req, res) {
   let explorerId = req.params.explorerId;
   console.log("explorerId ", explorerId);
 
+  let filter = {
+    explorer_Id: explorerId,
+    expiration_date: { $gt: utc }
+  }
+
+  Finder.count(filter, function (err, count) {
+    if (err) {
+      return res.status(500).json({ message: req.t('Error trying to get the finder.') });
+    } else {
+
+      if (count == 0) {
+        return res.status(204).json({ message: req.t('No finder was found for the criteria.') });
+      }
+      else
+      {
+       
+        Finder.findOne(filter,
+          function (err, finder) {
+            if (err) {
+              console.error('err: ', err);
+              res.send(err);
+            } else {
+              console.log("finder", finder);
+              res.json(finder);
+            }
+        });
+
+      }
+
+    }
+  });
+
+
+
+  /*
   Finder.find(
     {
       explorer_Id: explorerId,
@@ -178,6 +213,7 @@ exports.find_by_explorer_id = function (req, res) {
       }
     }
   );
+  */
 };
 
 exports.finder_stats = function (req, res)  {

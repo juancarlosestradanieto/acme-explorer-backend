@@ -84,7 +84,7 @@ module.exports = function (app) {
    * @swagger
    * /v1/finder/explorer/{explorerId}:
    *    get:
-   *      summary: Returns an finder.
+   *      summary: Returns a finder.
    *      tags: [Finder]
    *      parameters:
    *        - in: header
@@ -102,9 +102,9 @@ module.exports = function (app) {
    *            application/json:
    *              schema:
    *                type: object
-   *                $ref: '#/components/schemas/Actor'
-   *        404:
-   *          description: Finder not found.
+   *                $ref: '#/components/schemas/Finder'
+   *        204:
+   *          description: No finder matching the criteria has been found.
    *        500:
    *          description: Error trying to get the finder.
    *      security:
