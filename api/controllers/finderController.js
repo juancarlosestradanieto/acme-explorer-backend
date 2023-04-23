@@ -96,11 +96,18 @@ exports.create_a_finder = function (req, res) {
 };
 
 exports.find_by_explorer_id = function (req, res) {
-  const hoy = Date.now();
+  //const hoy = Date.now();
+  var now = new Date();
+  var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+  console.log("utc ", utc);
+
+  let explorerId = req.params.explorerId;
+  console.log("explorerId ", explorerId);
+
   Finder.find(
     {
-      explorer_Id: req.params.explorerId,
-      expiration_date: { $gt: hoy }
+      explorer_Id: explorerId,
+      expiration_date: { $gt: utc }
     },
     function (err, finders) {
       if (err) {
@@ -165,7 +172,7 @@ exports.find_by_explorer_id = function (req, res) {
             }
           });
         } else {
-          console.info('Json directo');
+          console.info('Returns json');
           res.json(finders);
         }
       }
