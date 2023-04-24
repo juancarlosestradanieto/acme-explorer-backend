@@ -1,0 +1,1494 @@
+{
+    "favourite-trips": [
+      {
+        "_id": "0",
+        "_version": 0,
+        "reference": "test1681323019139@gmail.com-favourites",
+        "trips": [
+          {
+            "_id": "6436c0a85cd2ea18b7b8464d",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "#M-BVD;!ay?",
+            "title": "A trip to Tyresebury",
+            "description": "Qui aut ab at. Qui beatae est temporibus dolorum. Aspernatur nam assumenda. Accusantium voluptatem in quo qui soluta. Modi id qui nisi impedit.",
+            "price": 140,
+            "publicationDate": "2021-06-15T00:20:49.883Z",
+            "startDate": "2022-03-01T23:19:45.899Z",
+            "endDate": "2024-11-27T04:41:41.321Z",
+            "managerId": "6436c0a85cd2ea18b7b8463e",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Tyresebury",
+                "description": "Voluptas porro molestias iste sunt illum minima non consequatur. Molestiae saepe voluptates vel molestias id sequi asperiores. Est ipsum vero rerum ut qui veritatis.",
+                "price": 48
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Tyresebury",
+                "description": "Et quo sapiente aut autem soluta cumque magnam perferendis odio. Perferendis perspiciatis iusto. Ipsa aliquid sit dignissimos quo maiores quia. Quae autem voluptatem officia quod cupiditate. Ut distinctio ut et ut.",
+                "price": 50
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Tyresebury",
+                "description": "Quam et dolor sed sapiente qui nihil aut. Alias est quia quisquam corrupti a tempore nam. Ut ut repellendus modi.",
+                "price": 42
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8464f",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "w9sjwy%h.T`",
+            "title": "A trip to Bodeton",
+            "description": "Vel illo voluptates odit pariatur possimus eum occaecati eligendi. Commodi dolor voluptatum quis fuga et repellendus aut. Ut velit qui minima dolor vel vel necessitatibus nihil nihil.",
+            "price": 90,
+            "publicationDate": "2021-07-31T21:10:36.252Z",
+            "startDate": "2022-01-26T19:42:10.340Z",
+            "endDate": "2023-07-13T02:54:48.123Z",
+            "managerId": "6436c0a85cd2ea18b7b84619",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Bodeton",
+                "description": "Sit quia nostrum dolorem laboriosam eaque. Quisquam nesciunt eos. Modi sunt itaque necessitatibus laborum similique perferendis. Laudantium et eaque accusamus harum possimus excepturi non a. Ut odit soluta. Est ullam hic delectus rerum laborum sed enim ducimus.",
+                "price": 14
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Bodeton",
+                "description": "Occaecati ut ut numquam omnis asperiores eos. Non magni maiores. Necessitatibus asperiores aliquid asperiores odit debitis ea cum ea accusantium.",
+                "price": 42
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Bodeton",
+                "description": "Aut aut dolorum dicta voluptatem sint. Earum maiores numquam voluptas. Soluta autem qui sequi et officiis. Suscipit autem deserunt molestias earum ipsa soluta. Illum quia esse mollitia qui.",
+                "price": 34
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84650",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "O\"eV41&73U^",
+            "title": "A trip to Lelialand",
+            "description": "Qui dolore assumenda reprehenderit fuga et vitae. Dolor debitis totam necessitatibus. Laboriosam adipisci eius at fuga.",
+            "price": 119,
+            "publicationDate": "2021-10-31T18:20:30.041Z",
+            "startDate": "2022-06-10T09:51:38.220Z",
+            "endDate": "2022-10-05T10:22:44.263Z",
+            "managerId": "6436c0a85cd2ea18b7b84619",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Lelialand",
+                "description": "Autem voluptas asperiores. Quam minima tenetur maiores odio. Eum odit molestiae consequuntur suscipit omnis aperiam sit autem exercitationem. Quam necessitatibus ut cupiditate voluptatem sint.",
+                "price": 40
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Lelialand",
+                "description": "In sit minima tempora ut ullam et. Veniam nihil error rerum tempora. Enim ratione aut eveniet optio et sequi. Nisi ex ut optio vero.",
+                "price": 31
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Lelialand",
+                "description": "Hic voluptas eos sunt error magni accusamus. Similique possimus dolor non. Autem veritatis quia magnam architecto consequatur minus. Dolor voluptatem dolores ab veniam minus ut aut consequatur. Suscipit et velit labore illum excepturi fuga magnam nihil est. Necessitatibus tenetur laboriosam dolores repellat.",
+                "price": 48
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84651",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "]Yj)<I#}C7w",
+            "title": "A trip to New Neil",
+            "description": "Qui praesentium praesentium. Et quos ex omnis veritatis praesentium voluptate enim ut aut. Qui voluptatem sint aut similique autem quia qui. Iure fuga est. Vitae voluptas illo quibusdam.",
+            "price": 65,
+            "publicationDate": "2020-06-15T11:45:24.241Z",
+            "startDate": "2022-05-05T00:40:18.554Z",
+            "endDate": "2023-08-20T22:33:40.594Z",
+            "managerId": "6436c0a85cd2ea18b7b845f4",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city New Neil",
+                "description": "Ad qui neque voluptatem id possimus sed nemo quia magnam. Enim debitis aut est facere inventore sint. Et libero consequatur modi laboriosam molestiae veritatis et et. Aut autem at laborum iure.",
+                "price": 16
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city New Neil",
+                "description": "Enim vel explicabo quis aut corporis delectus nulla. Voluptates id excepturi voluptate ducimus vel. Quia eveniet fugiat ullam officiis natus. Vel autem hic dolor aut dolorem eum tempora. Quis inventore aliquid reprehenderit atque maiores qui. Cumque quod quia in quia libero est ut id.",
+                "price": 38
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city New Neil",
+                "description": "Recusandae sed in aut eum. Aut qui quibusdam sint illo veniam quo eius. Aperiam rerum ipsa consequatur perspiciatis maiores sequi dolor illo. Aut quisquam molestiae. Nam libero labore nostrum officiis ex eum sint nostrum.",
+                "price": 11
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84652",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "$rGo>4gr|[(",
+            "title": "A trip to Lehnerport",
+            "description": "Hic et perferendis. Consectetur quia fuga eligendi. Sequi qui ut iste.",
+            "price": 129,
+            "publicationDate": "2022-06-24T06:54:18.230Z",
+            "startDate": "2023-08-17T19:52:15.856Z",
+            "endDate": "2025-11-10T13:18:18.890Z",
+            "managerId": "6436c0a85cd2ea18b7b84633",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Lehnerport",
+                "description": "Laboriosam id ab animi rerum assumenda eligendi. Esse animi quod velit nesciunt quis non voluptates aliquam. Molestias consequatur adipisci exercitationem. Dolorem quis ut labore et quos id. Commodi et dolor corrupti.",
+                "price": 46
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Lehnerport",
+                "description": "Qui libero nostrum at commodi quisquam hic. Assumenda neque veritatis dolores id assumenda distinctio voluptas. Blanditiis distinctio repellendus illum voluptatem harum eum. Velit quod eveniet et blanditiis sit.",
+                "price": 40
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Lehnerport",
+                "description": "Labore vitae fuga. Porro labore rerum quisquam iure consequatur sit dicta ab ut. Repellat est qui nemo iure et. Similique omnis ducimus nulla.",
+                "price": 43
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84653",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "q_PwgFhZL<Z",
+            "title": "A trip to New Roslyn",
+            "description": "Dolores aliquam laudantium. Provident at laboriosam. Perferendis recusandae minus excepturi et consequuntur ipsam facilis inventore. Et voluptatibus voluptatem odio deleniti. Perspiciatis molestiae possimus perspiciatis accusamus sapiente saepe exercitationem.",
+            "price": 114,
+            "publicationDate": "2020-06-25T14:52:19.900Z",
+            "startDate": "2022-07-16T22:37:07.025Z",
+            "endDate": "2022-10-16T22:17:24.244Z",
+            "managerId": "6436c0a85cd2ea18b7b8460a",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city New Roslyn",
+                "description": "Illum inventore ut quod ea. Cupiditate eos tempore quas consequatur vero odit ex. Qui corrupti corrupti deleniti vel et at.",
+                "price": 46
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city New Roslyn",
+                "description": "Voluptas voluptatem consectetur nihil porro. Eos libero suscipit ut cupiditate accusantium et. Delectus voluptas rerum. Sit labore sit cupiditate pariatur.",
+                "price": 33
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city New Roslyn",
+                "description": "Eveniet neque ut molestiae doloremque maxime qui. Et architecto ut quibusdam soluta error. Iure repellendus doloremque qui fugit.",
+                "price": 35
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84654",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "4:d6*!a]Yb{",
+            "title": "A trip to Grand Junction",
+            "description": "Quas et atque architecto labore. Recusandae voluptas non eos et libero. Illum culpa aspernatur asperiores.",
+            "price": 75,
+            "publicationDate": "2022-09-11T09:46:08.428Z",
+            "startDate": "2022-11-14T12:03:01.507Z",
+            "endDate": "2025-07-04T00:10:27.567Z",
+            "managerId": "6436c0a85cd2ea18b7b84642",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Grand Junction",
+                "description": "Quis nobis architecto. Explicabo eaque nihil voluptas expedita. Ut similique qui eligendi officiis. Laborum soluta est enim non ad sapiente voluptatem non aut.",
+                "price": 13
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Grand Junction",
+                "description": "Quos consectetur veritatis vel soluta rerum recusandae. Optio praesentium exercitationem placeat id architecto quam inventore rerum. Est temporibus qui repellendus id. Eius sint accusantium. Alias quia quibusdam.",
+                "price": 47
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Grand Junction",
+                "description": "Nihil hic velit. Corrupti minima saepe commodi dolores quo accusantium excepturi molestiae. Perspiciatis sit accusantium vel consequuntur illum aliquam sint repellat suscipit. Quae minus quam officia nulla et alias. Debitis dolor animi animi facere laborum quas. Ut maiores ut quam ipsam libero sint omnis.",
+                "price": 15
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84656",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "qlWD_d6EGKb",
+            "title": "A trip to Medhurstview",
+            "description": "Vel eos velit sed voluptas consequatur. Dolor quia beatae dolorum quidem perspiciatis impedit nulla omnis non. Illum facere rem laudantium porro voluptatum odio.",
+            "price": 49,
+            "publicationDate": "2023-01-31T11:12:40.635Z",
+            "startDate": "2025-03-24T08:07:50.392Z",
+            "endDate": "2026-06-13T12:37:10.821Z",
+            "managerId": "6436c0a85cd2ea18b7b84604",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Medhurstview",
+                "description": "Reprehenderit est ad eum sit est libero. Quia doloribus vero ut autem. Ratione quam aut temporibus. Harum eius itaque consequatur. Labore ut sit velit.",
+                "price": 14
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Medhurstview",
+                "description": "Eveniet amet dolore ducimus voluptate. Et explicabo ducimus sit aliquid et veniam. Sapiente harum fugit vitae quo non.",
+                "price": 10
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Medhurstview",
+                "description": "Rerum qui illo quam qui consequatur aspernatur. Voluptatem id eos. Ipsa aut et qui omnis atque. Earum fuga amet doloremque nam est.",
+                "price": 25
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84657",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "ns-T}-BI,O]",
+            "title": "A trip to West Oniemouth",
+            "description": "Porro animi veniam adipisci est voluptatum iure aut consequatur error. Et est est et nobis recusandae nostrum ipsam. Repellendus praesentium illum deserunt ut vel reprehenderit et delectus autem. Illo rerum quam sit aliquam est non tempora laboriosam earum. Fuga sed est. Cupiditate animi et ullam id sed non qui minima et.",
+            "price": 87,
+            "publicationDate": "2020-04-23T05:16:41.947Z",
+            "startDate": "2021-04-23T18:07:40.675Z",
+            "endDate": "2022-12-30T13:16:32.066Z",
+            "managerId": "6436c0a85cd2ea18b7b845ec",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city West Oniemouth",
+                "description": "Voluptatum voluptatem aut. Pariatur voluptate aut aut. Distinctio sapiente consectetur vel explicabo facere molestias.",
+                "price": 27
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city West Oniemouth",
+                "description": "Maxime deleniti est voluptatibus repellendus ex. Nostrum non dolore. Et nesciunt ipsum sit illo sit omnis ut animi.",
+                "price": 48
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city West Oniemouth",
+                "description": "Sit consequatur quisquam porro tempora quis illum autem. Aut sit vel molestiae debitis et. Hic et voluptatem qui non fuga aut libero suscipit. Id dolorum aut modi quia sed. Et qui illum. Recusandae tenetur id.",
+                "price": 12
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84658",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "Yew^IN9|rqA",
+            "title": "A trip to West Vickieshire",
+            "description": "Eos temporibus qui harum eius voluptas ut occaecati saepe. Quam maxime dolor doloremque voluptatum aut vero voluptatem earum aspernatur. Adipisci ex temporibus modi earum. Explicabo voluptatem beatae iste fuga autem sunt. Earum adipisci vel ex. Possimus est culpa repellendus enim sit.",
+            "price": 102,
+            "publicationDate": "2022-09-04T19:31:57.588Z",
+            "startDate": "2023-03-11T19:43:02.385Z",
+            "endDate": "2023-09-01T03:06:26.432Z",
+            "managerId": "6436c0a85cd2ea18b7b845ee",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city West Vickieshire",
+                "description": "Impedit mollitia est corrupti velit voluptatem harum delectus. Dolores illum minima hic aut placeat rerum distinctio harum. Et qui fuga quis reiciendis. Veniam consequuntur dolor tempora neque aliquam animi sequi exercitationem consequatur. Perferendis officia quaerat aut libero. Totam magni perspiciatis.",
+                "price": 33
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city West Vickieshire",
+                "description": "Facere quasi consequatur fuga. Sed et dolorum laboriosam voluptatum saepe. A temporibus voluptatibus eaque voluptatem voluptatem beatae optio non accusantium.",
+                "price": 49
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city West Vickieshire",
+                "description": "Ut pariatur eveniet eum dolores illum asperiores blanditiis. Nisi asperiores consectetur itaque tenetur sed officia aliquid inventore quae. Dolores id vel vero.",
+                "price": 20
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84659",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "`!7(VEvhdfY",
+            "title": "A trip to Gerryborough",
+            "description": "Perspiciatis laboriosam in asperiores quas et magni dolor. Numquam quidem sequi omnis velit eos suscipit omnis. Culpa iste voluptatem neque consectetur atque quam error saepe. Autem eum illum non consequatur reprehenderit. Nihil et quia esse laborum ut consequatur velit et.",
+            "price": 92,
+            "publicationDate": "2023-04-01T06:37:27.256Z",
+            "startDate": "2025-09-29T18:49:04.797Z",
+            "endDate": "2026-11-16T20:15:31.772Z",
+            "managerId": "6436c0a85cd2ea18b7b84605",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Gerryborough",
+                "description": "Possimus ut voluptatem cum natus asperiores. Maiores nulla consequatur sequi doloribus qui. Quia id beatae quia est repellat officiis non exercitationem sint.",
+                "price": 44
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Gerryborough",
+                "description": "Consequuntur nihil quae aut minus sed dicta. Soluta corporis quos similique modi voluptas. Impedit earum minus cumque similique sunt. Voluptatem explicabo recusandae voluptatem odio dolor quia facilis. Provident est aliquid expedita. Amet adipisci nisi ratione ut aut laudantium sed.",
+                "price": 13
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Gerryborough",
+                "description": "Illo molestiae molestiae enim voluptas tenetur eveniet voluptate et. Iure expedita voluptatem rerum velit error eius aut pariatur quia. Et alias enim excepturi ullam voluptatem mollitia consequatur. In minus non beatae molestiae quaerat qui aut architecto. Sint deleniti illum magni omnis eum harum incidunt deserunt.",
+                "price": 35
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8465b",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "3YRW+|\"V1K2",
+            "title": "A trip to Kendallshire",
+            "description": "Sit quos facilis qui voluptas fuga et et. Sunt voluptas distinctio ducimus fugiat ut voluptas et. Molestias facere quod deleniti animi dolor occaecati eum. Illo fugiat ut fugit distinctio incidunt maxime aut ipsam eligendi.",
+            "price": 113,
+            "publicationDate": "2022-08-28T07:05:22.755Z",
+            "startDate": "2022-10-18T15:20:23.688Z",
+            "endDate": "2024-06-19T16:20:46.392Z",
+            "managerId": "6436c0a85cd2ea18b7b84642",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Kendallshire",
+                "description": "Cupiditate dolor velit sapiente ducimus assumenda non aspernatur velit fugit. Autem iste vel temporibus ex inventore deserunt cupiditate sequi. Quis similique molestiae enim ut impedit veniam nam eos consequatur. Cumque similique laboriosam quas porro quos ea accusantium sapiente magnam.",
+                "price": 28
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Kendallshire",
+                "description": "Perferendis et velit. Quisquam laborum explicabo dolore eum aut. Tempora aperiam natus dolorum et labore.",
+                "price": 38
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Kendallshire",
+                "description": "Incidunt voluptatibus distinctio nobis ipsum. Aut dicta suscipit corporis repellat facere illo numquam dolores. Unde assumenda error minus magnam aperiam consequuntur consectetur ratione veritatis. Sed possimus illum tenetur ratione est esse. Eligendi ipsum molestiae sit minus.",
+                "price": 47
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8465c",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "]ZzVhFuW23H",
+            "title": "A trip to San Juan",
+            "description": "Nobis labore alias. Quasi itaque non consequatur. Ut distinctio illum. Vel eum laborum hic dignissimos laborum sit. Sed id et quas.",
+            "price": 110,
+            "publicationDate": "2021-12-23T16:47:41.276Z",
+            "startDate": "2022-03-19T05:12:18.807Z",
+            "endDate": "2023-07-13T04:40:34.148Z",
+            "managerId": "6436c0a85cd2ea18b7b8464a",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city San Juan",
+                "description": "Dolorem autem vero corporis ut et mollitia voluptas deleniti. Autem iusto commodi dolores est. Culpa eaque ea beatae aut. Aut facilis voluptas fugiat nulla hic cupiditate autem ducimus. Eligendi quaerat suscipit commodi aut quasi corporis mollitia fugiat qui.",
+                "price": 17
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city San Juan",
+                "description": "Pariatur ratione quia sunt quia ut nostrum culpa quod qui. Vero numquam eos tempore minima. Minus beatae et voluptatem esse et dignissimos totam quisquam. Porro mollitia earum dolorem dolorem dicta aut. Nihil beatae adipisci mollitia laudantium. Magni accusamus asperiores praesentium.",
+                "price": 48
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city San Juan",
+                "description": "Officia est omnis aut corrupti inventore tenetur. Quisquam natus et quidem ipsum enim nam. Velit ratione earum voluptatem labore neque et consequatur. Voluptas delectus illo repellendus. Minus nostrum aut omnis numquam qui omnis omnis non.",
+                "price": 45
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8465d",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "&v$8j((Rb-,",
+            "title": "A trip to North Armani",
+            "description": "Qui corporis omnis alias consequatur beatae voluptatem non ipsam. Nemo qui explicabo et quasi inventore. Voluptas harum porro quia quo perferendis est quas dolores. Aut ea quia nobis reprehenderit magni sit labore et. Eaque aliquid repudiandae velit reiciendis. Aut magni accusantium nisi ipsam assumenda quam blanditiis nisi accusamus.",
+            "price": 76,
+            "publicationDate": "2022-08-03T20:04:29.883Z",
+            "startDate": "2022-08-28T14:45:51.679Z",
+            "endDate": "2025-01-01T12:54:42.259Z",
+            "managerId": "6436c0a85cd2ea18b7b8463e",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city North Armani",
+                "description": "Sunt qui qui et ipsam. Eum amet eius aut veritatis. Vitae illum ipsa. Et et incidunt iste. Animi delectus et aperiam et rerum inventore officia eos. Laborum repellendus quibusdam aliquam recusandae molestiae sit.",
+                "price": 39
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city North Armani",
+                "description": "Excepturi illo minus sed quam molestiae facere vero sequi. Aspernatur et dolore accusantium qui corporis ut soluta fugit non. Autem ratione sapiente. Soluta quaerat magnam velit molestiae numquam. Qui non et rerum sit maiores impedit quasi omnis.",
+                "price": 16
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city North Armani",
+                "description": "Aut omnis delectus ratione iure. Blanditiis praesentium perspiciatis rerum non. Rerum quos voluptas.",
+                "price": 21
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8465e",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "7{;K}mS0b|Z",
+            "title": "A trip to Effertzview",
+            "description": "Optio ipsa cum delectus est eos et voluptatibus. Qui consequatur voluptates consequatur dolores est doloremque necessitatibus voluptatem. Id officia sed vero exercitationem quaerat. Accusamus ullam cumque qui ut reiciendis molestias.",
+            "price": 99,
+            "publicationDate": "2020-09-19T04:13:08.016Z",
+            "startDate": "2020-12-18T08:51:18.168Z",
+            "endDate": "2022-08-26T17:33:09.837Z",
+            "managerId": "6436c0a85cd2ea18b7b84624",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Effertzview",
+                "description": "Quia ipsum asperiores qui ratione aliquam aperiam. Eos unde consequuntur pariatur dolorem architecto. Non natus omnis a qui veniam sint autem et. Magnam ratione sit. Voluptatum ipsa explicabo ut et possimus quod. Distinctio incidunt qui.",
+                "price": 32
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Effertzview",
+                "description": "Corporis omnis sint quo beatae minima ex et. Alias dolorem ducimus sint in ratione magni quis ab. Corporis ducimus qui aut veritatis autem sed assumenda placeat. Iusto voluptatem alias velit voluptatem pariatur nulla. Qui non porro voluptas aut expedita blanditiis et facilis vitae.",
+                "price": 23
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Effertzview",
+                "description": "Dignissimos nulla aut. Quis expedita velit est nam perspiciatis omnis. A ad corrupti harum pariatur nulla ea quos quo.",
+                "price": 44
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8465f",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "*h+RVJ*7dU'",
+            "title": "A trip to Palm Bay",
+            "description": "Non minima sed. Necessitatibus dolorum dolores sunt officia doloremque alias fugit dicta sapiente. Ipsam quia fugiat. Aut non placeat blanditiis soluta doloremque ab non saepe veniam. Autem vel fugiat ipsum qui voluptatibus dolor vel omnis delectus.",
+            "price": 108,
+            "publicationDate": "2022-01-14T04:06:55.151Z",
+            "startDate": "2022-04-26T08:43:29.474Z",
+            "endDate": "2025-02-09T17:35:51.796Z",
+            "managerId": "6436c0a85cd2ea18b7b8461e",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Palm Bay",
+                "description": "Autem vel ut adipisci doloremque odio consequuntur alias et voluptatibus. Nulla nemo distinctio nostrum quis labore ratione quisquam fugit. Magnam nostrum maxime.",
+                "price": 37
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Palm Bay",
+                "description": "Quo quia itaque. Nihil dolorum ea laudantium aspernatur rerum aut enim. Quisquam numquam dicta ut libero voluptates voluptates non exercitationem adipisci. Voluptatem maiores unde laborum laborum. Vero id omnis tempora commodi.",
+                "price": 48
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Palm Bay",
+                "description": "Et ex autem non nobis voluptatem. Alias dolores ullam asperiores et esse. Saepe qui quas ex quod sit ut expedita. Nemo esse voluptatem et voluptatibus sint dolore. Non voluptatem consequuntur vel eius ut ut.",
+                "price": 23
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84663",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "Z`*##c{fkc5",
+            "title": "A trip to New Uriah",
+            "description": "Accusamus labore facilis repellat voluptates sed enim. Officiis amet qui. Voluptate delectus hic necessitatibus eos tempore architecto unde. Aut odit nam illum nulla ut. Repellat consequatur quia dolor rem et vel qui magni.",
+            "price": 63,
+            "publicationDate": "2020-07-21T03:08:20.737Z",
+            "startDate": "2022-02-19T16:12:04.835Z",
+            "endDate": "2024-08-29T11:33:05.405Z",
+            "managerId": "6436c0a85cd2ea18b7b84604",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city New Uriah",
+                "description": "Perferendis non facilis. Modi aliquam ullam voluptatem consequatur omnis enim est. Sint officiis adipisci libero eum non est inventore illo.",
+                "price": 21
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city New Uriah",
+                "description": "Id necessitatibus aliquam non aut consectetur eaque impedit explicabo. Dolore minima quo quisquam veniam aut occaecati aspernatur et. Laudantium recusandae modi beatae commodi nemo architecto. Quibusdam aliquam accusantium velit recusandae. Voluptates modi omnis ea. Suscipit iure voluptatem reprehenderit amet sed sint ipsa dolorum repudiandae.",
+                "price": 30
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city New Uriah",
+                "description": "Ut beatae magnam sunt deserunt earum officiis et. Nihil iste nisi quisquam itaque rerum quod. Ut repellendus ab quia voluptatem voluptatem. Non inventore qui asperiores quia. Veniam sed facere aspernatur est quis corrupti ab non voluptatem. Fuga dolorem quia.",
+                "price": 12
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84664",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "@QQKX,W|TKa",
+            "title": "A trip to Lulustad",
+            "description": "Et et laudantium possimus reiciendis beatae nostrum quas. Expedita non iste. Accusamus voluptatem ratione delectus aut. Ea rem aut. Maxime incidunt reprehenderit ut.",
+            "price": 59,
+            "publicationDate": "2021-01-01T03:38:33.765Z",
+            "startDate": "2023-09-23T04:46:33.806Z",
+            "endDate": "2024-11-14T19:26:28.695Z",
+            "managerId": "6436c0a85cd2ea18b7b8463e",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Lulustad",
+                "description": "Nemo et velit enim est eaque distinctio velit dicta corporis. Rerum pariatur magni corporis voluptatem. Modi esse aspernatur nisi. Qui quibusdam qui consequuntur itaque aliquid.",
+                "price": 30
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Lulustad",
+                "description": "Ipsam illum a in at dolores voluptas debitis quod. Cum ducimus accusantium dicta quasi accusantium nisi ut. Occaecati amet id.",
+                "price": 12
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Lulustad",
+                "description": "Saepe dicta excepturi aut. Magnam maiores nulla ut sunt tempore. Qui tempore dolorem perspiciatis quia soluta at.",
+                "price": 17
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84665",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "f\"5><Ug6i8b",
+            "title": "A trip to West Ernestina",
+            "description": "Eos est asperiores aspernatur laudantium nihil velit et vero. Et error soluta quod odio expedita. Qui architecto repellendus molestiae esse perferendis soluta. Rerum harum et cupiditate tenetur cupiditate. Quos ea molestias exercitationem qui mollitia ipsum ut. Ut maiores et qui iure aspernatur.",
+            "price": 68,
+            "publicationDate": "2020-06-02T14:11:10.026Z",
+            "startDate": "2020-10-09T15:25:33.537Z",
+            "endDate": "2022-09-27T12:26:54.300Z",
+            "managerId": "6436c0a85cd2ea18b7b845ef",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city West Ernestina",
+                "description": "Deserunt maiores aut fugiat molestiae nisi accusantium. Similique error rerum. Quidem id officiis est ut eum architecto explicabo reiciendis sunt.",
+                "price": 11
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city West Ernestina",
+                "description": "Facere blanditiis optio quibusdam. Consequatur consequatur deleniti doloremque ut vero repellendus voluptatem eum. Sunt quas voluptatibus id possimus voluptas dolor commodi.",
+                "price": 18
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city West Ernestina",
+                "description": "Id dolorem sed reiciendis. Quia laboriosam aut ipsa sit assumenda libero et sequi. Molestiae qui architecto voluptatem qui earum.",
+                "price": 39
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84666",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "^9<(I,wp:1|",
+            "title": "A trip to East Schuylerhaven",
+            "description": "Corporis molestiae quibusdam consequuntur. Ratione quia et in ut sint ea qui. Numquam eos commodi temporibus nulla. Et eaque et et delectus temporibus. Nihil voluptas nam repellat. Consequuntur dolores cupiditate enim voluptatem voluptas similique officiis.",
+            "price": 83,
+            "publicationDate": "2020-05-17T16:57:24.796Z",
+            "startDate": "2022-12-16T01:21:38.424Z",
+            "endDate": "2025-07-07T13:41:55.158Z",
+            "managerId": "6436c0a85cd2ea18b7b84624",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city East Schuylerhaven",
+                "description": "Totam beatae corrupti modi fugiat esse fugit cupiditate omnis. Ut tempora non explicabo est qui. Numquam totam vel nulla tenetur error eveniet laboriosam eos tempore.",
+                "price": 20
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city East Schuylerhaven",
+                "description": "Nobis eveniet et. Consequatur veritatis ratione non. Labore porro quisquam ipsa.",
+                "price": 31
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city East Schuylerhaven",
+                "description": "Et corporis nesciunt quis accusantium. Voluptas officia voluptas eum natus voluptates magni tenetur est aut. Ratione esse necessitatibus tempora exercitationem fuga non. Quos atque dicta odit neque eos. Et ut voluptas facilis aspernatur. Ducimus aut atque est suscipit nisi sit dolores est.",
+                "price": 32
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84673",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "50Tut2K{f;'",
+            "title": "A trip to Kreigerport",
+            "description": "Magni fugiat culpa consectetur tempora eligendi sit nihil. Doloremque molestiae eveniet voluptas rem aut in tempora rerum cumque. Veniam quos voluptatibus explicabo. Magni atque optio molestiae nihil nemo possimus. Asperiores aut dolor est rerum vero dolorum reprehenderit.",
+            "price": 115,
+            "publicationDate": "2021-10-13T15:06:45.699Z",
+            "startDate": "2022-03-03T14:35:14.593Z",
+            "endDate": "2023-10-28T10:45:52.861Z",
+            "managerId": "6436c0a85cd2ea18b7b84640",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Kreigerport",
+                "description": "Exercitationem illo ut ipsa et quia laudantium. Et ex consequuntur consequatur. Officiis repudiandae praesentium eos doloribus. Aspernatur ut dicta et ea illo. Qui nemo at quo delectus expedita. Laboriosam pariatur qui sed sit quas at dolore.",
+                "price": 37
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Kreigerport",
+                "description": "Ratione a in distinctio et corporis corrupti tenetur et. Tempore sunt dignissimos non voluptatibus dolor explicabo. Minus quo inventore aut atque aut magni molestiae.",
+                "price": 36
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Kreigerport",
+                "description": "Aliquid molestiae voluptas distinctio dolor et temporibus voluptatum quibusdam. Qui quidem esse laboriosam earum perferendis esse minus quae earum. Autem aperiam optio praesentium in eius. Quia non excepturi sed ut totam qui ut voluptatem suscipit. Nulla doloremque dolorem culpa repellat nisi dolorum. Excepturi nulla illo totam.",
+                "price": 42
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84674",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "8A7\\?)ml0}R",
+            "title": "A trip to Vidalshire",
+            "description": "Quisquam libero ut rerum. Sapiente fuga harum distinctio omnis tempora cupiditate. Officiis voluptatem sint voluptatum soluta totam neque aliquid voluptatibus.",
+            "price": 69,
+            "publicationDate": "2020-12-04T19:16:23.549Z",
+            "startDate": "2021-10-08T10:45:15.883Z",
+            "endDate": "2023-09-10T13:30:45.686Z",
+            "managerId": "6436c0a85cd2ea18b7b845ec",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Vidalshire",
+                "description": "Deleniti exercitationem ex quos sint occaecati natus quasi. Sed in aut at numquam deserunt maxime. Beatae voluptates explicabo. Minima repellendus tempora nostrum aut veniam. Velit nemo tempora qui perferendis cupiditate nobis voluptatibus sed et. Animi similique incidunt blanditiis.",
+                "price": 30
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Vidalshire",
+                "description": "Laborum quibusdam sapiente quae modi sed nam repudiandae earum vitae. Cum et sit corporis libero vel recusandae sed. Nisi error in est qui quam ut sit deleniti. Quia vel est ipsum.",
+                "price": 27
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Vidalshire",
+                "description": "Id quas iste quia voluptatem velit aliquid dolor itaque. Perferendis dicta in cumque. Quisquam suscipit ad. Dicta odio suscipit debitis qui itaque aut. Quisquam ea quisquam placeat.",
+                "price": 12
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84675",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "u|3s^\\@rC|G",
+            "title": "A trip to Bakersfield",
+            "description": "Sed et officiis pariatur dolorem voluptatem. Molestiae cum consequatur exercitationem numquam eius consequatur est est. Et occaecati omnis.",
+            "price": 73,
+            "publicationDate": "2020-09-26T16:25:31.018Z",
+            "startDate": "2022-04-24T18:41:03.893Z",
+            "endDate": "2024-01-28T22:07:39.263Z",
+            "managerId": "6436c0a85cd2ea18b7b8461d",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Bakersfield",
+                "description": "Voluptates laboriosam ut sit corrupti. Officia quia laboriosam labore. Quia in minima ad porro id et libero qui aperiam. Iusto nam ipsam ex corporis. Repellat et minus aspernatur vel aperiam rem adipisci culpa. Cum itaque quae rerum.",
+                "price": 35
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Bakersfield",
+                "description": "Provident repellat dolore beatae unde quo. Quia est fuga neque deleniti eum sunt. Provident harum natus ut natus aliquid blanditiis explicabo. Quisquam et omnis ducimus. Deleniti qui cupiditate et enim unde. Velit sit nostrum esse aut nostrum consequatur.",
+                "price": 22
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Bakersfield",
+                "description": "Numquam voluptatum ex praesentium tenetur rerum est accusantium quas et. Modi unde quis dolor alias pariatur asperiores. Eos amet qui eaque voluptatem ad omnis. Optio quos ad ad est nam nostrum est ad earum.",
+                "price": 16
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84676",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "n;lF,c[gf<M",
+            "title": "A trip to New Maximus",
+            "description": "Alias sint unde quas. Accusamus dolore laudantium. Unde incidunt soluta nostrum dolor officia alias et quaerat dolores. Voluptatem non labore voluptas et laboriosam eos quas. Quis ipsum voluptates non. Blanditiis quo sed sit dolore consequuntur.",
+            "price": 82,
+            "publicationDate": "2021-04-10T22:31:26.555Z",
+            "startDate": "2024-01-07T08:24:10.415Z",
+            "endDate": "2025-05-29T03:40:55.819Z",
+            "managerId": "6436c0a85cd2ea18b7b84624",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city New Maximus",
+                "description": "Eligendi non soluta id culpa dolore quisquam tenetur. Nulla numquam nemo sit delectus. Qui saepe tempora dolor. Nemo voluptatum libero dolores alias fuga vel.",
+                "price": 26
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city New Maximus",
+                "description": "Ducimus nihil nam provident aut eos consectetur animi. Maxime consequatur aut unde est aut recusandae possimus distinctio ut. Unde nam deserunt quaerat incidunt maxime ullam tenetur.",
+                "price": 10
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city New Maximus",
+                "description": "Mollitia possimus odio placeat ipsam itaque et aut. Ullam minus nemo. Rem optio id qui possimus in ut cumque quaerat. Eos nisi qui. Animi eum numquam nulla quis sed. Maiores excepturi dolore aut sit atque id.",
+                "price": 46
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84677",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "]UlcG0vI9iF",
+            "title": "A trip to Sauershire",
+            "description": "Atque aspernatur debitis molestiae. Magni veritatis necessitatibus quis quae quibusdam. Dolore accusamus totam cupiditate commodi velit deserunt corporis possimus sit.",
+            "price": 107,
+            "publicationDate": "2023-01-16T11:33:42.336Z",
+            "startDate": "2025-01-25T01:15:19.201Z",
+            "endDate": "2027-06-14T23:21:53.193Z",
+            "managerId": "6436c0a85cd2ea18b7b84609",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Sauershire",
+                "description": "Doloremque itaque magni eveniet. Quo voluptatum est. Voluptatem aut dolor repellat doloribus.",
+                "price": 19
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Sauershire",
+                "description": "Sed nostrum soluta at velit odio rerum et. Possimus tempore quisquam. Fugit doloribus id aliquid quisquam eum odit voluptatibus veniam ipsum. Blanditiis repellat sit tempore omnis asperiores voluptas autem porro similique.",
+                "price": 43
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Sauershire",
+                "description": "Ipsum qui labore eos dolor necessitatibus voluptate. Adipisci id sint temporibus sequi velit sed. Labore quaerat nostrum voluptate voluptatem amet. Perspiciatis assumenda veritatis molestiae.",
+                "price": 45
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84678",
+            "_version": 0,
+            "requirements": [],
+            "ticker": ";3!Lb(crD:D",
+            "title": "A trip to East Rosetta",
+            "description": "Deserunt corrupti porro error itaque a officiis. Quo ex aut est. Earum eum ad veritatis quia.",
+            "price": 77,
+            "publicationDate": "2023-02-19T19:44:09.028Z",
+            "startDate": "2024-08-19T09:59:24.034Z",
+            "endDate": "2025-01-31T20:24:26.053Z",
+            "managerId": "6436c0a85cd2ea18b7b8461e",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city East Rosetta",
+                "description": "Et quo rerum ut ex et voluptatem ratione repellat enim. Consequatur voluptas dolorem voluptatem sed occaecati. Id id praesentium enim neque quaerat delectus dolorem nesciunt debitis. Harum aspernatur et dolore deleniti sunt et.",
+                "price": 14
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city East Rosetta",
+                "description": "Autem nulla sed dolorum possimus animi architecto illum quo. Eaque est labore dolorum expedita numquam quae. Harum sit sequi tenetur.",
+                "price": 17
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city East Rosetta",
+                "description": "Enim rem consectetur ut repellendus. Veritatis totam aut eaque in eius itaque. Delectus voluptas dolores consequatur nesciunt eos. Alias qui voluptatum expedita.",
+                "price": 46
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84679",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "<H8mn7|dt]1",
+            "title": "A trip to Isomchester",
+            "description": "Eos iste quidem ut repudiandae. A laudantium adipisci in est consectetur aliquid eligendi aspernatur. Fugiat rerum et laboriosam quis autem. Iusto quibusdam voluptatem velit et.",
+            "price": 67,
+            "publicationDate": "2020-05-30T03:01:30.283Z",
+            "startDate": "2020-08-07T07:19:38.928Z",
+            "endDate": "2022-11-15T20:22:57.895Z",
+            "managerId": "6436c0a85cd2ea18b7b84640",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Isomchester",
+                "description": "Est quia dolores inventore qui minus quia. Rerum consequuntur sit autem qui consequatur quo inventore possimus recusandae. Iste labore animi iure iusto. Labore debitis rem voluptatem provident. Est reiciendis libero ad quas magni deleniti tempore nobis sit.",
+                "price": 15
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Isomchester",
+                "description": "Quasi rerum et laudantium quo rem asperiores eos soluta. Nemo quia possimus pariatur. Et itaque sunt libero qui eum eveniet aut quam. Aut unde voluptatem qui tempora consequuntur perferendis culpa sint facere. Maiores dolores repellat praesentium facere illo. Doloremque eveniet suscipit veritatis perspiciatis quia.",
+                "price": 26
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Isomchester",
+                "description": "Possimus enim veniam assumenda est ut quo est suscipit et. Provident ipsa repellendus accusamus temporibus velit eaque a. Qui nisi sunt quos at culpa similique voluptatum eaque temporibus. Sint qui mollitia maiores odio quasi nihil omnis voluptas a. Nesciunt at magnam et ex ut.",
+                "price": 26
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8467a",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "5g/a6%ckbf:",
+            "title": "A trip to Port Reannashire",
+            "description": "Inventore nostrum vel pariatur illum qui excepturi quam quia dolor. Ipsa aspernatur consequuntur autem quia corporis consequatur omnis ipsum. Sed ratione labore sed iusto quam. Nihil inventore non aliquam autem totam qui illo dolores. Alias quas doloribus et dolorum corrupti similique sed rem.",
+            "price": 110,
+            "publicationDate": "2021-07-01T22:18:12.381Z",
+            "startDate": "2022-07-03T23:16:52.738Z",
+            "endDate": "2024-02-15T16:46:58.112Z",
+            "managerId": "6436c0a85cd2ea18b7b84605",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Port Reannashire",
+                "description": "Qui magnam sed culpa. Similique id et magni. Et quaerat dolore explicabo ut. Enim ea et a maiores sit tempore ducimus illo. Voluptatum minima praesentium harum vel veniam quia cupiditate. Laudantium in nihil voluptates quaerat.",
+                "price": 43
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Port Reannashire",
+                "description": "Delectus vel porro et ipsa voluptas. Aspernatur sit nisi. Rerum aut explicabo. Ratione harum voluptatem. Sapiente veritatis consequatur. Qui veniam maiores sint est aut quia id.",
+                "price": 24
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Port Reannashire",
+                "description": "Et consequuntur aspernatur animi recusandae est sit. Aut dolores ducimus veritatis facere quod impedit facere quia. Laboriosam quis consequatur. Voluptatem autem qui laborum minus sint. Ipsa quia molestias eum. Ut quo deserunt autem aut nihil qui perspiciatis.",
+                "price": 43
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84695",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "-!{GH89\\vWh",
+            "title": "A trip to West Alyson",
+            "description": "Nihil eum quasi sunt. Quos mollitia quia aut iure eaque error. Minima eos iusto expedita odit tempora aliquam. Perferendis saepe nostrum quis modi non ducimus. Aliquam beatae ducimus natus aut sunt et. Occaecati exercitationem ut.",
+            "price": 80,
+            "publicationDate": "2021-03-16T11:34:25.956Z",
+            "startDate": "2023-03-20T09:15:31.482Z",
+            "endDate": "2025-05-04T05:42:48.751Z",
+            "managerId": "6436c0a85cd2ea18b7b8464a",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city West Alyson",
+                "description": "Placeat tenetur ratione qui quas sunt consequuntur. Saepe blanditiis exercitationem amet et sed dolor consequatur id. Nihil ut blanditiis.",
+                "price": 27
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city West Alyson",
+                "description": "Enim minima deserunt sit ut ratione nostrum. Similique architecto ut. Qui corrupti rerum unde aut libero qui. Expedita nihil voluptas dolorum. Optio molestiae voluptas non dolore eaque aut vero. Sunt corporis quae nihil dolorem.",
+                "price": 43
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city West Alyson",
+                "description": "Eum sed ut rerum non temporibus. Eos sint dolores unde voluptas vero occaecati commodi. Esse consequatur harum animi commodi culpa facilis dolor. Qui provident qui exercitationem adipisci voluptatibus et omnis quisquam.",
+                "price": 10
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84696",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "1&J1faJs=ru",
+            "title": "A trip to Omerburgh",
+            "description": "Aut non molestiae commodi et iste. Nesciunt voluptatem vel consequatur rerum ad esse soluta ipsum. Eum tempore tempore.",
+            "price": 89,
+            "publicationDate": "2021-09-28T21:41:52.509Z",
+            "startDate": "2022-12-31T14:32:31.536Z",
+            "endDate": "2025-12-11T01:00:15.604Z",
+            "managerId": "6436c0a85cd2ea18b7b84619",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Omerburgh",
+                "description": "Sapiente aliquam minus. Facere saepe dolores consectetur voluptatem aliquid sunt et fuga laudantium. Quo qui magni placeat recusandae. Et autem distinctio facilis molestiae eius et quis. Tempore ipsum reprehenderit optio asperiores adipisci.",
+                "price": 21
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Omerburgh",
+                "description": "Consequuntur velit corrupti perspiciatis id illum corrupti inventore totam molestias. Ipsa nihil consectetur amet veritatis assumenda. Autem et repellat molestias natus et illum nemo et est. Vel quia eos quasi qui rem autem natus. Quod quis enim mollitia laudantium quas excepturi.",
+                "price": 24
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Omerburgh",
+                "description": "Molestiae tenetur sed maxime molestiae. Minus quam qui nemo voluptate excepturi facere. Sint repellendus dolores eligendi ut tenetur non ut sit reiciendis. Et ea sunt nulla consequuntur. At harum molestiae.",
+                "price": 44
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84697",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "U\\KD>0U^<6t",
+            "title": "A trip to East Erling",
+            "description": "Ut aut sint ipsa animi est. Id dolorem commodi exercitationem vitae molestiae consequatur. Est et inventore fugit saepe. Dolores qui amet reprehenderit. Quo id repellendus fugiat sed cumque et labore officia.",
+            "price": 67,
+            "publicationDate": "2020-11-18T08:30:26.832Z",
+            "startDate": "2022-08-24T06:55:46.072Z",
+            "endDate": "2022-12-20T07:07:54.897Z",
+            "managerId": "6436c0a85cd2ea18b7b84633",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city East Erling",
+                "description": "Et quo totam. Nulla sit omnis id quos labore omnis. Aperiam fugiat suscipit sit nihil ullam cumque. Molestiae sed tempora ut magnam. Ipsam ea a et qui deleniti sit possimus. Et omnis quia voluptatem est.",
+                "price": 15
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city East Erling",
+                "description": "Ullam nobis aut eum. Accusantium omnis et qui similique id. Fuga et rerum delectus officia omnis quod. Deserunt voluptates commodi sit qui assumenda. Repellendus eaque quaerat. Cumque quae sed est labore non qui reiciendis optio adipisci.",
+                "price": 19
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city East Erling",
+                "description": "Dolores temporibus possimus veritatis esse distinctio sit qui. Dolor sit sint. Quia et est sit recusandae. Ea non sint. Laudantium repudiandae hic asperiores non. Eius enim consequuntur ad consequatur et deleniti optio.",
+                "price": 33
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b84699",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "mY[p%P@-F%l",
+            "title": "A trip to East Russell",
+            "description": "Ut consectetur non debitis reprehenderit qui quis corrupti. Cum suscipit totam vel nulla minus in. Aut tempore sequi qui sunt rerum. Alias quo tempora in provident dolor. Aspernatur dolore qui consequatur similique voluptatem quia ut.",
+            "price": 127,
+            "publicationDate": "2021-07-09T07:26:12.860Z",
+            "startDate": "2023-11-20T20:56:59.529Z",
+            "endDate": "2024-12-19T03:56:23.607Z",
+            "managerId": "6436c0a85cd2ea18b7b84633",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city East Russell",
+                "description": "Id provident ducimus. Amet velit qui maxime temporibus provident iste quo. Iusto distinctio enim nisi modi sunt magni. Maiores doloremque ad ut rerum quod praesentium et tempora. Ut asperiores veniam dolore et.",
+                "price": 50
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city East Russell",
+                "description": "Ut dolorem voluptatum omnis quia laudantium ex. Consequatur sint omnis quo sunt. Enim alias totam mollitia. Magni minus non quo nisi inventore nisi.",
+                "price": 32
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city East Russell",
+                "description": "Ab cum porro qui. Fuga accusantium vitae corporis magni aliquid blanditiis unde. Est explicabo totam fugit. Sunt repellendus aut est pariatur laudantium corrupti quaerat voluptatibus sequi. Quaerat est nisi unde voluptatum et.",
+                "price": 45
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8469a",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "L&KZzfV\\ZH}",
+            "title": "A trip to Zemlakfurt",
+            "description": "Officia qui officia autem labore saepe autem qui rem necessitatibus. Alias provident ab vel adipisci est voluptatum iusto debitis. Quaerat enim et fugit rerum incidunt. Et debitis odio voluptatibus quae quia porro quae consequatur excepturi. Eum in a ducimus totam nulla fugit. Mollitia reiciendis et vel reprehenderit odio quam impedit.",
+            "price": 100,
+            "publicationDate": "2020-12-14T10:30:38.115Z",
+            "startDate": "2023-01-24T09:46:47.453Z",
+            "endDate": "2025-09-26T01:00:35.639Z",
+            "managerId": "6436c0a85cd2ea18b7b8461d",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Zemlakfurt",
+                "description": "Tempora et corporis eos minima sint ut dolorem. Blanditiis beatae debitis aut qui. Iusto suscipit dolor eum at fugiat est sint. Ab quis aut velit voluptas. Quod aut maxime fuga voluptatem quaerat. Vel placeat corrupti dolores.",
+                "price": 44
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Zemlakfurt",
+                "description": "Aut necessitatibus aperiam. Rerum quibusdam quisquam facere ut vel animi libero minus. Veniam quia quis quibusdam voluptatem minima perferendis labore reprehenderit.",
+                "price": 31
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Zemlakfurt",
+                "description": "Optio est laborum dolor omnis illum qui odit quod. Quas porro ut id vel nesciunt eum sit reprehenderit praesentium. Quae eligendi mollitia doloribus. Temporibus debitis debitis eum. In repellat ratione aspernatur.",
+                "price": 25
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8469b",
+            "_version": 0,
+            "requirements": [],
+            "ticker": ">y!-}S`=?bf",
+            "title": "A trip to Maudieland",
+            "description": "Ut id voluptatum et. Et et sit aut. Accusantium velit nesciunt doloremque nostrum repellendus delectus. Dolores iste error adipisci occaecati laboriosam alias sapiente. Ut magni autem quibusdam ullam ut. In aut sapiente dolore nemo reiciendis ipsam laboriosam fuga.",
+            "price": 77,
+            "publicationDate": "2021-07-19T19:06:55.388Z",
+            "startDate": "2022-04-02T23:41:28.793Z",
+            "endDate": "2024-02-20T21:24:20.483Z",
+            "managerId": "6436c0a85cd2ea18b7b845f4",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Maudieland",
+                "description": "Earum qui voluptates deleniti mollitia. Aut similique maxime consequuntur. Officia unde adipisci. Sapiente deserunt quibusdam. Enim nobis reiciendis et voluptatem molestias inventore consectetur est nam.",
+                "price": 14
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Maudieland",
+                "description": "Quia voluptatem ab nulla molestiae nisi eos. Alias saepe aut. Repellendus ut similique harum corrupti. Impedit sit accusamus vel sunt asperiores veniam et est. Aut magnam rem ut quo alias error voluptate ad repellendus. Eveniet sunt quas iure non quibusdam officiis.",
+                "price": 21
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Maudieland",
+                "description": "Deleniti aut et. Aliquid aperiam est vel enim. Non aut est temporibus debitis ipsa molestiae maiores doloremque aut. Veniam in libero sequi culpa cum quasi qui impedit. Quam assumenda maiores aut iure quas. Fugit voluptatem similique id quia ad.",
+                "price": 42
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8469c",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "9}:bUPw0f:9",
+            "title": "A trip to Mount Prospect",
+            "description": "Quia in nam expedita recusandae iste dolorem sit similique. Ab nesciunt quam quas quae consequuntur officiis rem. Eligendi facilis nam est sint error eum non et. In et quidem voluptatem qui voluptates sed.",
+            "price": 72,
+            "publicationDate": "2022-12-27T15:21:25.929Z",
+            "startDate": "2024-05-05T22:08:21.922Z",
+            "endDate": "2026-05-20T16:37:52.519Z",
+            "managerId": "6436c0a85cd2ea18b7b84603",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Mount Prospect",
+                "description": "Quis maxime molestias aut quas eveniet ex. Omnis odio sunt nostrum. Ad quo in qui cupiditate alias molestias. Doloribus ipsam itaque expedita non soluta. Quaerat quo animi at. Minus neque minus qui et voluptatem eius iure.",
+                "price": 13
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Mount Prospect",
+                "description": "Earum tempore qui animi corrupti error sed voluptatum. Earum sit quos deleniti qui fugit. Enim architecto suscipit et soluta porro enim vel quam. Dolore aut a voluptatibus molestiae. Provident aut ut id. Voluptatem architecto culpa distinctio libero.",
+                "price": 48
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Mount Prospect",
+                "description": "Voluptas consequatur voluptatem. Illum quo officia harum et et. Neque est cumque impedit aut cupiditate veritatis quo id voluptatem. Eligendi necessitatibus saepe porro perspiciatis sunt praesentium dolor. Fuga exercitationem perspiciatis doloribus sit facere quo eum. Est reprehenderit recusandae.",
+                "price": 11
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8469d",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "+]qeeZ]8e1_",
+            "title": "A trip to Merrittbury",
+            "description": "Occaecati omnis animi et. Dolor aperiam ipsam pariatur harum iure ad cupiditate quia veritatis. Consequatur non sunt corrupti tenetur magni labore ut est et.",
+            "price": 80,
+            "publicationDate": "2022-02-17T07:41:15.229Z",
+            "startDate": "2023-02-24T10:11:21.721Z",
+            "endDate": "2023-05-09T15:47:07.231Z",
+            "managerId": "6436c0a85cd2ea18b7b845ec",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Merrittbury",
+                "description": "Qui nisi quis accusamus quidem nobis aut. Aut occaecati cupiditate quis illo et numquam nam error. Dolor minus est dolores qui dignissimos officiis doloribus maiores qui. Voluptas et possimus optio dignissimos harum. Facilis sapiente eaque. Commodi dolor repellat beatae rem nisi doloribus eligendi ad.",
+                "price": 44
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Merrittbury",
+                "description": "Consequatur voluptas rerum quas tempora beatae voluptas. Ut officia sit ex dolore tempore. Et voluptas tempora sapiente deserunt omnis veniam totam fugiat.",
+                "price": 24
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Merrittbury",
+                "description": "Et praesentium quis nostrum officia. Eaque sed quasi. Dolor pariatur dolor iste nobis eius id. Quia et ut quasi non ipsa voluptatem est. Similique dolorem corporis voluptas et possimus quam ut mollitia. Vel sit facere.",
+                "price": 12
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b8469e",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "%\"fB:::qM<6",
+            "title": "A trip to Enriquebury",
+            "description": "Sunt assumenda et reiciendis neque veritatis dolores numquam vel laboriosam. Sapiente natus perferendis qui. Et aliquam libero dignissimos qui eveniet.",
+            "price": 60,
+            "publicationDate": "2022-02-16T15:30:09.584Z",
+            "startDate": "2024-07-21T19:27:56.419Z",
+            "endDate": "2026-05-25T21:22:03.819Z",
+            "managerId": "6436c0a85cd2ea18b7b84633",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city Enriquebury",
+                "description": "Ipsam qui ut atque cumque blanditiis veritatis possimus. Ea et sequi eligendi quaerat cumque voluptatum minus vitae tempore. Rerum numquam est odit omnis sint voluptatibus omnis nostrum sunt.",
+                "price": 18
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city Enriquebury",
+                "description": "Sint voluptas veritatis id. Est quo eos alias occaecati rerum nihil voluptatibus. Placeat voluptas aspernatur. Sint natus at fugit facere autem quidem rerum blanditiis eos. A hic error modi voluptas asperiores facilis perferendis. Voluptatem magnam voluptas nulla.",
+                "price": 27
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city Enriquebury",
+                "description": "Voluptatem minus molestiae eaque soluta distinctio et ea. Id velit ullam odio et rem dolor doloribus inventore. Quo iste quia repudiandae. Neque eum commodi impedit consectetur sed tempora facere. Omnis sequi rerum reprehenderit.",
+                "price": 15
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          },
+          {
+            "_id": "6436c0a85cd2ea18b7b846a0",
+            "_version": 0,
+            "requirements": [],
+            "ticker": "?Rn-7{\\Wgtx",
+            "title": "A trip to South Dustin",
+            "description": "Facilis rerum est. Velit qui voluptatem maxime voluptas eveniet. Aut magni consectetur excepturi labore. In non ratione modi a qui sunt rem nam rem. Quis aliquam vel quas voluptate.",
+            "price": 94,
+            "publicationDate": "2021-08-31T06:29:45.272Z",
+            "startDate": "2023-07-06T23:04:48.770Z",
+            "endDate": "2024-07-17T17:00:09.236Z",
+            "managerId": "6436c0a85cd2ea18b7b84604",
+            "stages": [
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 1 of city South Dustin",
+                "description": "Aperiam quia voluptatem officiis ab. Sint similique facere id consequuntur. Rerum quibusdam quae quas ea similique et. Laboriosam possimus dicta cum.",
+                "price": 45
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 2 of city South Dustin",
+                "description": "In ducimus facere beatae doloremque laboriosam et ratione et a. Id ea officia aperiam dolore officia est. Quo aut quia distinctio laboriosam iure tempore. Iste est voluptas odit. Officiis numquam voluptatem deserunt sunt dolor saepe sunt vero assumenda.",
+                "price": 28
+              },
+              {
+                "_id": "0",
+                "_version": 0,
+                "title": "Zone 3 of city South Dustin",
+                "description": "Quia commodi accusantium totam ipsam placeat repellendus dolorem et. Corporis corrupti debitis. Ducimus aut sed commodi alias voluptatibus aliquam. Et ullam impedit repudiandae doloremque autem possimus enim. Tempora amet rem officia autem aut magnam labore. Eligendi voluptas mollitia tempora.",
+                "price": 21
+              }
+            ],
+            "canceled": false,
+            "cancelReason": "",
+            "pictures": []
+          }
+        ],
+        "id": 1
+      }
+    ]
+  }

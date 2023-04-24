@@ -42,3 +42,16 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=${mongoDBUser:-mongoUser}
       - MONGO_INITDB_ROOT_PASSWORD=${mongoDBPass:-mongoPassword}
       - MONGO_INITDB_DATABASE=${mongoDBName:-acme_explorer}
+  json-server:
+    build:
+      context: ./json-server
+      dockerfile: ./Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+      #version cmd
+      - ./json-server/db.json:/tmp/db.json
+      - ./json-server/cors.js:/tmp/cors.js
+      #version app
+      #- ./json-server:/usr/src/app
+      #- /usr/src/app/node_modules

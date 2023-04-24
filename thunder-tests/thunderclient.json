@@ -3022,5 +3022,19 @@
         "value": "200"
       }
     ]
+  },
+  {
+    "_id": "8416e245-8f0d-4f02-8e9c-7db086e7bdd8",
+    "colId": "f5219cd4-25dd-43bf-bf35-aba5ef98d2c2",
+    "containerId": "",
+    "name": "FAVOURITE TRIPS",
+    "url": "http://localhost:3000/favourite-trips",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-04-24T17:52:47.027Z",
+    "modified": "2023-04-24T17:53:04.739Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

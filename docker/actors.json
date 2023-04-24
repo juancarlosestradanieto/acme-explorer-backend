@@ -1,0 +1,95 @@
+[
+  {
+    "_id": {
+      "$oid": "6446c105228560b39c3ab5b2"
+    },
+    "name": "test",
+    "surname": "test",
+    "email": "juancarlosestradanieto@gmail.com",
+    "password": "$2b$05$Gz4tHlCdLRgerrg8xdNiHurt/oi0FEvsEDa4Y1jaafilbKFrBetqm",
+    "language": [],
+    "phone_number": "123456789",
+    "address": "test",
+    "isActive": true,
+    "role": [
+      "ADMINISTRATOR"
+    ],
+    "deleted": false,
+    "__v": 0
+},{
+  "_id": {
+    "$oid": "6446a93013e977ecca8bb7cb"
+  },
+  "name": "ExplorerOriginalName",
+  "surname": "ExplorerOriginalSurname",
+  "email": "administrator@elplan.es",
+  "password": "$2b$05$LDnCs72l55QHwnlzw8XEzuyyaS5gH/f1VtJOROkyKv0S/5xIDD8ea",
+  "language": [
+    "SPANISH"
+  ],
+  "phone_number": "+34612345678",
+  "address": "myAddress",
+  "isActive": true,
+  "role": [
+    "ADMINISTRATOR"
+  ],
+  "deleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6446a93113e977ecca8bb7ce"
+  },
+  "name": "ExplorerOriginalName",
+  "surname": "ExplorerOriginalSurname",
+  "email": "explorer@elplan.es",
+  "password": "$2b$05$la8og0U9kcRgPHNjl.LVyu5zOv/YOMKxTkkhb2tCDgUg8tH3pxk6a",
+  "language": [
+    "SPANISH"
+  ],
+  "phone_number": "+34612345678",
+  "address": "myAddress",
+  "isActive": true,
+  "role": [
+    "EXPLORER"
+  ],
+  "deleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6446a93313e977ecca8bb7d1"
+  },
+  "name": "ExplorerOriginalName",
+  "surname": "ExplorerOriginalSurname",
+  "email": "manager@elplan.es",
+  "password": "$2b$05$KZHJFhjxkgzoXT14Ak6YOOd/iuVSpprj1UzdGrIagXt2Z4aCHq.Iq",
+  "language": [
+    "SPANISH"
+  ],
+  "phone_number": "+34612345678",
+  "address": "myAddress",
+  "isActive": true,
+  "role": [
+    "MANAGER"
+  ],
+  "deleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6446a93413e977ecca8bb7d4"
+  },
+  "name": "ExplorerOriginalName",
+  "surname": "ExplorerOriginalSurname",
+  "email": "sponsor@elplan.es",
+  "password": "$2b$05$gm2ROLdXDCQfJJQSuJ7FbOyhqscUpEwKDl997bZs6IEldL8bEetr.",
+  "language": [
+    "SPANISH"
+  ],
+  "phone_number": "+34612345678",
+  "address": "myAddress",
+  "isActive": true,
+  "role": [
+    "SPONSOR"
+  ],
+  "deleted": false,
+  "__v": 0
+}]
