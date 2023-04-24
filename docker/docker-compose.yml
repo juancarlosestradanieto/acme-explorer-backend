@@ -49,9 +49,5 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      #version cmd
       - ./json-server/db.json:/tmp/db.json
       - ./json-server/cors.js:/tmp/cors.js
-      #version app
-      #- ./json-server:/usr/src/app
-      #- /usr/src/app/node_modules
