@@ -29,6 +29,6 @@
     "A trip that has already started can not be cancelled.": "Un viaje que ya ha comenzado no se puede cancelar.",
     "Error trying to get the applications of the trip.": "Error al intentar obtener las solicitudes del viaje.",
     "A trip that already has accepted applications can not be cancelled.": "Un viaje que ya tiene solicitudes aceptadas no se puede cancelar.",
-    "Error trying to get the finder.": "Un viaje que ya tiene solicitudes aceptadas no se puede cancelar.",
-    "No finder matching the criteria has been found.": "Un viaje que ya tiene solicitudes aceptadas no se puede cancelar."
+    "Error trying to get the finders.": "Error al tratar de obtener los buscadores de viajes.",
+    "No finder matching the criteria has been found.": "No se ha encontrado ningún buscador de viajes que coincida con los criterios indicados."
 }

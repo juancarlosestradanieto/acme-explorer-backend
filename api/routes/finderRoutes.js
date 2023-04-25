@@ -106,7 +106,7 @@ module.exports = function (app) {
    *        204:
    *          description: No finder matching the criteria has been found.
    *        500:
-   *          description: Error trying to get the finder.
+   *          description: Error trying to get the finders.
    *      security:
    *        - ApiKeyAuth: []
    */
@@ -133,7 +133,7 @@ module.exports = function (app) {
    *        404:
    *          description: Finder not found.
    *        500:
-   *          description: Error trying to get the finder.
+   *          description: Error trying to get the finders.
    *      security:
    *        - ApiKeyAuth: []
    */

@@ -29,6 +29,6 @@
     "A trip that has already started can not be cancelled.": "A trip that has already started can not be cancelled.",
     "Error trying to get the applications of the trip.": "Error trying to get the applications of the trip.",
     "A trip that already has accepted applications can not be cancelled.": "A trip that already has accepted applications can not be cancelled.",
-    "Error trying to get the finder.": "Error trying to get the finder.",
+    "Error trying to get the finders.": "Error trying to get the finders.",
     "No finder matching the criteria has been found.": "No finder matching the criteria has been found."
 }
