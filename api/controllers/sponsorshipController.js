@@ -93,6 +93,9 @@ exports.list_sponsorships_of_a_trip = function (req, res) {
 };
 
 exports.pay_a_sponsorship = function (req, res) {
+
+  console.log("pay_a_sponsorship req.params.sponsorshipId ", req.params.sponsorshipId);
+
   Sponsorship.findOneAndUpdate({ _id: req.params.sponsorshipId }, { isPayed: true }, { new: true }, function (err, sponsorship) {
     if (!sponsorship) {
       res.status(404).send({ error: true, message: 'Sponsorship not found.' });
@@ -104,4 +107,5 @@ exports.pay_a_sponsorship = function (req, res) {
       }
     }
   });
+  
 };

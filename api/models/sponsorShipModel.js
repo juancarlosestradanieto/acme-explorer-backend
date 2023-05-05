@@ -3,9 +3,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const SponsorshipSchema = new Schema({
+  /*
   banner: {
     data: Buffer,
     contentType: String
+  },
+  */
+  banner: {
+    type: String,
+    required: 'link to the banner image of the sponsor is required'
   },
   page: {
     type: String,
