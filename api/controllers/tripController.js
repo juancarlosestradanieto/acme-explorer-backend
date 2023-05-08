@@ -113,7 +113,15 @@ exports.create_a_trip = function (req, res) {
 
   newTrip.save(function (err, trip) {
     if (err) {
-      res.send(err);
+      //console.log("newTrip.save err", err);
+
+      let responseCode = 500;
+      if (err.hasOwnProperty('errors')) 
+      {
+        responseCode = 422;
+      }
+
+      res.status(responseCode).send(err);
     } else {
       res.status(201).json(trip);
     }
