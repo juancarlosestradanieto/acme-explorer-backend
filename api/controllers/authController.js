@@ -129,11 +129,18 @@ exports.verifyAuthenticatedActorCanAccessParameterSponsorship = function () {
     const authenticatedActorIsAdministrator = authenticatedActor.role.includes('ADMINISTRATOR');
 
     if (!authenticatedActorIsAdministrator) {
+
+      console.log('req.params.sponsorshipId ', req.params.sponsorshipId);
+
       Sponsorship.findById(req.params.sponsorshipId, function (err, sponsorship) {
         if (err) {
           return res.status(500).json({ error: true, message: req.t('Error trying to get the sponsorship.') });
         } else {
-          if (authenticatedActor._id.toString() !== sponsorship.sponsor_Id) {
+
+          console.log('authenticatedActor._id.toString() ', authenticatedActor._id.toString());
+          console.log('sponsorship.sponsor_Id.toString() ', sponsorship.sponsor_Id.toString());
+
+          if (authenticatedActor._id.toString() !== sponsorship.sponsor_Id.toString()) {
             return res.status(403).send(req.t('Authenticated actor can not access this sponsorship.'));
           }
         }

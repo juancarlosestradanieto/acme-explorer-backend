@@ -1,6 +1,8 @@
 'use strict';
 module.exports = function (app) {
+
   const authController = require('../controllers/authController');
+  const sponsorships = require('../controllers/sponsorshipController');
 
   /**
    * @swagger
@@ -16,7 +18,7 @@ module.exports = function (app) {
    *          type: string
    *          description: The ticker of the trip sponsored.
    *        banner:
-   *          type: image
+   *          type: string
    *          description: The banner of the sponsor.
    *        page:
    *          type: string
@@ -32,10 +34,9 @@ module.exports = function (app) {
    *        sponsor_Id: 6218eca775428925392c633f
    *        tripTicker: 220722-FUJN
    *        page: https://an-amazing-sponsor.com
+   *        banner: https://an-amazing-sponsor.com/path/to/the/sponsorship/image.jpg
    *
    */
-
-  const sponsorships = require('../controllers/sponsorshipController');
 
   app.route('/v1/sponsorships')
 
@@ -66,10 +67,10 @@ module.exports = function (app) {
    *      security:
    *        - ApiKeyAuth: []
    */
-    .post(
-      authController.verifyAuthenticadedActor(['ADMINISTRATOR', 'SPONSOR']),
-      sponsorships.create_a_sponsorship
-    )
+  .post(
+    authController.verifyAuthenticadedActor(['ADMINISTRATOR', 'SPONSOR']),
+    sponsorships.create_a_sponsorship
+  )
 
   /**
    * @swagger
@@ -89,7 +90,7 @@ module.exports = function (app) {
    *        500:
    *          description: Error trying to get all sponsorships.
    */
-    .get(sponsorships.list_all_sponsorships);
+  .get(sponsorships.list_all_sponsorships);
 
   app.route('/v1/sponsorships/:sponsorshipId')
 
@@ -262,7 +263,7 @@ module.exports = function (app) {
 
   /**
    * @swagger
-   * /v1/sponsorship/{sponsorshipId}/pay:
+   * /v1/sponsorships/{sponsorshipId}/pay:
    *    patch:
    *      summary: Pay a sponsorship.
    *      tags: [Sponsorship]
