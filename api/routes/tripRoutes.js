@@ -72,8 +72,8 @@ module.exports = function (app) {
    *        description: Discover this beautiful place.
    *        requirements: ['Legal age.', 'Sun glases.']
    *        stages: [{'title': 'Zone 1 of Pirineo.', 'description': 'a description', 'price': 10}, {'title': 'Zone 2 of Pirineo.', 'description': 'a description', 'price': 10}]
-   *        startDate: "2023-02-20T19:45:02.792Z"
-   *        endDate: "2024-01-30T12:24:49.594Z"
+   *        startDate: "2023-02-20"
+   *        endDate: "2024-01-30"
    *
    *    Stage:
    *      type: object
@@ -226,6 +226,8 @@ module.exports = function (app) {
    *          description: Unauthorized.
    *        403:
    *          description: You don't have right role to carry out this operation. Only managers can create trips.
+   *        422:
+   *          description: Validation error.
    *        500:
    *          description: Error trying to create the trip.
    *      security:

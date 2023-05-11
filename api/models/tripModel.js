@@ -7,6 +7,38 @@ const dateFormat = require('date-format');
 const customAlphabet = require('nanoid').customAlphabet;
 const idGenerator = customAlphabet('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 4);
 
+const validStartDate = function (startDate) {
+
+  //console.log("validStartDate this.publicationDate ", this.publicationDate);
+  //console.log("validStartDate typeof this.publicationDate ", typeof this.publicationDate);
+
+  let valid = true;
+  if(typeof this.publicationDate !== "undefined" && this.publicationDate !== "undefined" && this.publicationDate !== null)
+  {
+    //console.log("found publication date");
+    valid = ((typeof this.publicationDate !== "undefined") && new Date(startDate) >= new Date(this.publicationDate));
+  }
+  else
+  {
+    //console.log("not found publication date");
+  }
+
+  return valid;
+
+};
+
+const startDateValidators = [
+  { validator: validStartDate, msg: 'This field must greater than or equal to publicationDate.' }
+];
+
+const validEndDate = function (endDate) {
+  return (new Date(endDate) >= new Date(this.startDate));
+};
+
+const endDateValidators = [
+  { validator: validEndDate, msg: 'This field must greater than or equal to startDate.' }
+];
+
 const StageSchema = new Schema({
   title: {
     type: String,
@@ -45,19 +77,21 @@ const TripSchema = new Schema({
   requirements: {
     type: [String]
   },
+  publicationDate: {
+    type: Date
+  },
   startDate: {
     type: Date,
+    validate: startDateValidators,
     required: 'Kindly enter the starting date of the trip'
   },
   endDate: {
     type: Date,
+    validate: endDateValidators,
     required: 'Kindly enter the ending date of the trip'
   },
   pictures: {
     type: [{ data: Buffer, contentType: String }]
-  },
-  publicationDate: {
-    type: Date
   },
   canceled: {
     type: Boolean,
