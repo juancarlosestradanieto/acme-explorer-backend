@@ -234,7 +234,7 @@ exports.finder_stats = function (req, res)  {
               'count': -1
             }
           }, {
-            '$limit': 10
+            '$limit': 11
           }
         ], 
         'other': [
