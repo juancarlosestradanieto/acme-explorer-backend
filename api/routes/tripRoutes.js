@@ -314,7 +314,7 @@ module.exports = function (app) {
     .put(
       authController.verifyAuthenticadedActor(['MANAGER']),
       authController.verifyAuthenticatedActorCanAccessParameterTrip(),
-      authController.verifyTripIsNotPublished(),
+      //authController.verifyTripIsNotPublished(),
       trips.update_a_trip
     )
 
